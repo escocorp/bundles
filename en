@@ -1,7 +1,7 @@
 vnw.votedy=[stat]Player {0} [stat]voted [green]FOR[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
 vnw.votedn=[stat]Player {0} [stat]voted [red]AGAINST[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
 vnw.pass=[stat]The vote to skip the wave has been accepted!;
-vnw.failed=[stat]The vote to skip the wave has been rejected!
+vnw.failed=[stat]The vote to skip the wave has been rejected!;
 
 infomessage.economyguide=Guide on how to become rich.
 For every 50 blocks, you receive 1 to 3 coins to your balance, depending on the game mode.
