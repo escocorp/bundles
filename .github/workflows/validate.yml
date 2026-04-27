@@ -1,0 +1,24 @@
+name: Validate
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate ru
+        run: node validator.js ru
+      - name: Validate en
+        run: node validator.js en
+      - name: Validate uk_UA
+        run: node validator.js uk_UA
