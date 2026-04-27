@@ -1,0 +1,145 @@
+vnw.votedy=[stat]Player {0} [stat]voted [green]FOR[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
+vnw.votedn=[stat]Player {0} [stat]voted [red]AGAINST[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
+vnw.pass=[stat]The vote to skip the wave has been accepted!;
+vnw.failed=[stat]The vote to skip the wave has been rejected!;
+
+infomessage.economyguide=Guide on how to become rich.
+For every 50 blocks, you receive 1 to 3 coins to your balance, depending on the game mode.
+For each wave you complete, you receive 3 to 5 coins to your balance, depending on the mode.
+Coins from your balance can be spent on items on the black market using the /shop command.
+Coins can also be earned and spent by playing slots using the /slot <bet> command.;
+
+slots.win={0} [yellow]spins the slot!
+[lightgray][{1}] [{2}] [{3}]
+[green]Win: ${4};
+
+slots.fail={0} [yellow]spins the slot!
+[lightgray][{1}] [{2}] [{3}]
+[red]Loss: -${4};
+
+slots.smollbet=[scarlet]Bet must be > 0;
+
+menus.slots.win=[green]Win: ${0};
+menus.slots.fail=[red]Loss: -${0};
+
+menu.shop.title=[yellow]Black Market;
+menu.shop.unitbuy=[stat]Player {0} [stat]bought [white]{1}[stat] for [green]$[lightgray]{2};
+menu.shop.healcores=[green]Repair cores;
+menu.shop.advertise.healcores=[stat]Player {0} [stat]repaired all cores [white]{1} [stat]for [green]$[lightgray]2500;
+menu.shop.nomoney=[scarlet]You dont have enough coins!;
+
+advertise.banned=[scarlet]Player [lightgray][{0}] {1} [scarlet]was banned for {2} for the reason [lightgray]{3};
+votekick.immune=[scarlet]This player cannot be kicked!;
+advertise.admins=[stat]Server administration recruitment is now open — maybe we're looking for you!
+[lightgray]{0};
+advertise.discord=[stat]Join our [blue]Discord!
+[lightgray]{0};
+advertise.reports=[stat]If you notice a violation, you can report it in our [blue]Discord
+[lightgray]{0}
+Or by contact@larzed.icu;
+votekick.targetleft=[lightgray]Vote passed, the player has left the server!;
+
+kick.graylisted=Your IP are blacklisted.
+To unblock, please contact our Discord server.
+{0};
+
+menu.welcome.title=Welcome Menu;
+menu.welcome.message=Hello, welcome to EscoCorp.
+The server is somewhat similar to 404ru, let me explain why.
+The EscoPlugin currently running on 404 was partially made by me, so some implementations may occasionally look similar.
+The owner is [#ffaf]yolo[] aka [#abcdef]grely[].
+In short, follow the rules: don't grief, don't be a jerk, act logically, don't be a noob, and don't RP.;
+
+menus.dontshow=Don't show;
+menus.close=[red]Close;
+
+args.mustbeint=Argument {0} must be a number!;
+args.lessthan=Argument {0} must be less than {1};
+
+noperms=[scarlet]You do not have permission to perform this action;
+botcheck=[scarlet]Please reconnect.;
+unitdespawn=[stat]Unit despawn time!;
+logic.antilag=[scarlet]Do not build lag machines!;
+
+messages.join=[{0}] [green]Player {1} [green]joined the server!;
+messages.leave=[{0}] [red]Player {1} [red]left the server!;
+
+admin.kicked=[scarlet]You were kicked by[white];
+team.changed=[green]You are now on team[white];
+banned=[scarlet]You are banned![white]
+Ban ID: {3}
+Reason: {0}
+Unban in: {1}
+Appeal in our Discord server {2}
+Or at contact@larzed.icu;
+
+muted=[scarlet]You muted for reason {0} [scarlet]. Unmute in {1};
+
+discord.link=Now join our Discord and send
+{0}link {1}
+in any channel!
+Do not leave the server during the process!
+[blue]Discord:[] {2};
+
+rtv.error.voted=[scarlet]You have already voted. Sit down.;
+rtv.playervoted=[stat]RTV: Player {0} [stat]voted to skip the map! Votes: {1} [lightgray](/rtv y/n);
+rtv.playerleft=[scarlet]RTV: Player {0} [stat]left! Votes: {1};
+
+rtv.failed=Vote failed. Not enough votes to skip the map. Votes {0}/{1};
+rtv.votey=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} [lightgray](/rtv y/n);
+rtv.voten=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} [lightgray](/rtv y/n);
+rtv.voteymap=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
+rtv.votenmap=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
+rtv.pass=[green]Map skip vote passed!;
+
+votekick.disabled=[scarlet]Vote kick is disabled here!;
+votekick.fewplayers=[scarlet]At least 3 players are required to start a vote kick!;
+votekick.localplayer=[scarlet]Just kick the player yourself if you are the host.;
+votekick.alreadystarted=[scarlet]Vote is already in progress!;
+votekick.noreason=[scarlet]A reason is required to kick a player. Add it after the player name.;
+votekick.kickyouself=[scarlet]You cannot kick yourself!;
+votekick.admin=[scarlet]Did you really think you could kick an admin?;
+votekick.localplayer2=[scarlet]Local player cannot be kicked!;
+votekick.onlyyourteam=[scarlet]Only players from your team can be kicked!;
+votekick.wait=[scarlet]You must wait {0} minutes before starting another vote!;
+votekick.start=[lightgray]Reason:[orange] {0}[lightgray].;
+votekick.playernotfound=[scarlet]Player [orange] '{0}' [scarlet] not found!;
+
+votekick.failed=[lightgray]Vote failed. Not enough votes to kick[orange] {0}[lightgray];
+votekick.voted=[lightgray]{0}[lightgray] voted to kick[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]Type[orange] /vote <y/n>[] to vote.;
+votekick.passed=[orange]Vote passed.[scarlet] {0}[orange] will be banned on the server for {1} minutes.;
+
+vote.novoteinprogress=[scarlet]There is no active vote! Start one?;
+vote.canceledbyadmin=[lightgray]Vote canceled by admin[orange] {0}[lightgray].;
+vote.local=[scalret]Local players cannot vote! Just kick them yourself!;
+vote.alreadyvoted=[scarlet]You have already voted {0}. Sit down.;
+vote.targetisplayer=[scarlet]You cannot vote against yourself!;
+vote.otherteam=[scarlet]You cannot vote against other teams!;
+vote.unknownvote=[scarlet]Choose between 'y' (yes) or 'n' (no).;
+
+commands.nodesc=No description available.;
+commands.unknownpage=[scarlet]Unknown page!;
+commands.didyoumean=[scarlet]Unknown command. Did you mean [lightgray]"{0}"[]?;
+commands.unknown=[scarlet]Unknown command. See [lightgray]/help[scarlet].;
+commands.manyargs=[scarlet]Too many arguments. Usage:[lightgray] {0}[gray] {1};
+commands.fewargs=[scarlet]Too few arguments. Usage:[lightgray] {0}[gray] {1};
+
+commands.t.description=Send a message only to your team.;
+commands.a.description=Send a message only to administrators.;
+commands.votekick.description=Start a vote to kick a player with a reason.;
+commands.sync.description=Resynchronize the world state.;
+commands.help.description=Show the list of all commands.;
+commands.rtv.description=Vote to skip the map.;
+commands.vote.description=Vote in the current kick vote. Admins can cancel it using 'c';
+commands.ban.description=Ban a player;
+commands.team.description=Change your team;
+
+commands.slot.description=LETS GO GAMBLING!;
+commands.shop.description=You can buy units here!;
+commands.hidden.description=Hide your administrator rights from others;
+commands.link.description=Link your Discord account to your game account;
+commands.artv.description=End the game;
+commands.discord.descripton=Get a link to our Discord;
+commands.stats.description=View your game statistics on the server;
+commands.economy.description=View the economy guide;

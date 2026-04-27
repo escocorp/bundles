@@ -1,0 +1,147 @@
+vnw.votedy=[stat]Гравець {0} [stat]проголосував [green]ЗА[stat] пропуск хвилі! {1}/{2} [lightgray](/vnw y/n);
+vnw.votedn=[stat]Гравець {0} [stat]проголосував [red]ПРОТИ[stat] пропуск хвилі! {1}/{2} [lightgray](/vnw y/n);
+vnw.pass=[stat]Голосування за пропуск хвилі прийнято!;
+vnw.failed=[stat]Голосування за пропуск хвилі відхилено!;
+
+infomessage.economyguide=Гайд про те, як стати багатим.
+За кожні 50 блоків ви отримуєте від 1 до 3 койнів на баланс залежно від ігрового режиму.
+За кожну пройдену хвилю ви отримуєте від 3 до 5 койнів на баланс залежно від режиму.
+Койни з балансу можна витратити, купуючи предмети на чорному ринку за допомогою команди /shop
+Також койни можна як заробити, так і витратити, граючи в слоти за допомогою команди /slot <ставка>;
+
+slots.win={0} [yellow]крутить слот!
+[lightgray][{1}] [{2}] [{3}]
+[green]Виграш: ${4};
+
+slots.fail={0} [yellow]крутить слот!
+[lightgray][{1}] [{2}] [{3}]
+[red]програш: -${4};
+
+slots.smollbet=[scarlet]Ставка має бути > 0;
+
+menus.slots.win=[green]Виграш: ${0};
+menus.slots.fail=[red]Програш: -${0};
+
+menu.shop.title=[yellow]Чорний Ринок;
+menu.shop.unitbuy=[stat]Гравець {0} [stat]купив [white]{1}[stat] за [green]$[lightgray]{2};
+menu.shop.healcores=[green]Ремонтувати ядра;
+menu.shop.advertise.healcores=[stat]Гравець {0} [stat]відремонтував усі ядра [white]{1} [stat]за [green]$[lightgray]2500;
+menu.shop.nomoney=[scarlet]У вас недостатньо койнів!;
+
+advertise.banned=[scarlet]Гравець [lightgray][{0}] {1} [scarlet]був забанений на {2} з причини [lightgray]{3};
+votekick.immune=[scarlet]Цього гравця не можна кікнути!;
+advertise.admins=[stat]На сервері відкрито набір на адміністрацію сервера, можливо нам потрібні саме ви!
+[lightgray]{0};
+advertise.discord=[stat]Завітайте до нашого [blue]Discord!
+[lightgray]{0};
+advertise.reports=[stat]Якщо ви помітили порушення, ви можете поскаржитися в нашому [blue]Discord
+[lightgray]{0}
+або на пошту contact@larzed.icu;
+votekick.targetleft=[lightgray]Голосування прийнято, гравець вийшов із сервера!;
+
+kick.graylisted=Ваш IP у чорному списку!
+Щоб зняти його, зверніться до нашого Discord сервера
+{0};
+
+menu.welcome.title=Вітальне меню;
+menu.welcome.message=Привіт, ти на EscoCorp.
+Сервер чимось схожий на 404ru, пояснюю чому.
+EscoPlugin, який зараз стоїть на 404, частково зроблений мною, тому реалізація деяких речей може бути схожою.
+Власником є [#ffaf]yolo[] aka [#abcdef]grely[].
+Коротко по правилах: не гриферити, не бути мудаком, дотримуватись логіки, не бути нубом і не РПшити.;
+
+menus.dontshow=Не показувати;
+menus.close=[red]Закрити;
+
+args.mustbeint=Аргумент {0} має бути числом!;
+args.lessthan=Аргумент {0} має бути менше ніж {1};
+
+noperms=[scarlet]У вас немає прав для виконання цієї дії;
+botcheck=[scarlet]Будь ласка, перепідключіться.;
+unitdespawn=[stat]Час видалення юнітів!;
+logic.antilag=[scarlet]Не будуйте лаг-машини!;
+
+messages.join=[{0}] [green]Гравець {1} [green]зайшов на сервер!;
+messages.leave=[{0}] [red]Гравець {1} [red]вийшов із сервера!;
+
+admin.kicked=[scarlet]Вас кікнув[white];
+team.changed=[green]Тепер ви в команді[white];
+banned=[scarlet]Вас забанено![white]
+Ban ID: {3}
+Причина: {0}
+Розбан через: {1}
+ЯКЩО ВИ НЕ ПОГОДЖУЄТЕСЬ ІЗ БАНОМ, СПРОБУЙТЕ ЙОГО ОСКАРЖИТИ!!
+Оскаржити можна в нашому Discord сервері {2}
+Або за адресою contact@larzed.icu;
+
+muted=[scarlet]Вас зам'ютили з причини {0} [scarlet]. Роз'мют через {1};
+
+discord.link=Тепер зайдіть у наш Discord і напишіть
+{0}link {1}
+в будь-який канал!
+Не виходьте із сервера під час цього!
+[blue]Discord:[] {2};
+
+rtv.error.voted=[scarlet]Ви вже проголосували. Сядьте.;
+rtv.playervoted=[stat]RTV: Гравець {0} [stat]проголосував за пропуск карти! Голоси: {1} [lightgray](/rtv y/n);
+rtv.playerleft=[scarlet]RTV: Гравець {0} [stat]вийшов! Голоси: {1};
+
+rtv.failed=Голосування провалено. Недостатньо голосів для пропуску карти. Голоси {0}/{1};
+rtv.votey=[stat]Гравець {0} [stat]проголосував [green]за[stat] пропуск карти! Голоси: {1}/{2} [lightgray](/rtv y/n);
+rtv.voten=[stat]Гравець {0} [stat]проголосував [scarlet]проти[stat] пропуску карти! Голоси: {1}/{2} [lightgray](/rtv y/n);
+rtv.voteymap=[stat]Гравець {0} [stat]проголосував [green]за[stat] пропуск карти! Голоси: {1}/{2} Карта: {3} [lightgray](/rtv y/n);
+rtv.votenmap=[stat]Гравець {0} [stat]проголосував [scarlet]проти[stat] пропуску карти! Голоси: {1}/{2} Карта: {3} [lightgray](/rtv y/n);
+
+rtv.pass=[green]Голосування за пропуск карти успішне!;
+
+votekick.disabled=[scarlet]Голосування за кік тут вимкнено!;
+votekick.fewplayers=[scarlet]Потрібно щонайменше 3 гравці, щоб почати голосування за кік!;
+votekick.localplayer=[scarlet]Просто кікни гравця сам, якщо ти хост.;
+votekick.alreadystarted=[scarlet]Голосування вже розпочато!;
+votekick.noreason=[scarlet]Потрібна причина, щоб кікнути гравця. Додай її після ніку.;
+votekick.kickyouself=[scarlet]Ти не можеш кікнути себе!;
+votekick.admin=[scarlet]Ти справді думав, що зможеш кікнути адміна?;
+votekick.localplayer2=[scarlet]Локального гравця не можна кікнути!;
+votekick.onlyyourteam=[scarlet]Можна кікати лише гравців твоєї команди!;
+votekick.wait=[scarlet]Ти маєш зачекати {0} хвилин перед новим голосуванням!;
+votekick.start=[lightgray]Причина:[orange] {0}[lightgray].;
+votekick.playernotfound=[scarlet]Гравця [orange] '{0}' [scarlet] не знайдено!;
+
+votekick.failed=[lightgray]Голосування провалено. Недостатньо голосів, щоб кікнути[orange] {0}[lightgray];
+votekick.voted=[lightgray]{0}[lightgray] проголосував за кік[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]Напиши[orange] /vote <y/n>[] щоб проголосувати.;
+votekick.passed=[orange]Голосування успішне.[scarlet] {0}[orange] буде забанено на сервері на {1} хвилин.;
+
+vote.novoteinprogress=[scarlet]Зараз немає голосування!;
+vote.canceledbyadmin=[lightgray]Голосування скасовано адміном[orange] {0}[lightgray].;
+vote.local=[scalret]Локальні гравці не можуть голосувати! Просто кікни його сам!;
+vote.alreadyvoted=[scarlet]Ти вже проголосував {0}. Сядь.;
+vote.targetisplayer=[scarlet]Ти не можеш голосувати за себе!;
+vote.otherteam=[scarlet]Ти не можеш голосувати за інші команди!;
+vote.unknownvote=[scarlet]Вибери між 'y' (так) або 'n' (ні).;
+
+commands.nodesc=Опис відсутній.;
+commands.unknownpage=[scarlet]Невідома сторінка!;
+commands.didyoumean=[scarlet]Невідома команда. Можливо ви мали на увазі [lightgray]"{0}"[]?;
+commands.unknown=[scarlet]Невідома команда. Дивіться [lightgray]/help[scarlet].;
+commands.manyargs=[scarlet]Забагато аргументів. Використання:[lightgray] {0}[gray] {1};
+commands.fewargs=[scarlet]Замало аргументів. Використання:[lightgray] {0}[gray] {1};
+
+commands.t.description=Надіслати повідомлення лише вашій команді.;
+commands.a.description=Надіслати повідомлення лише адміністраторам.;
+commands.votekick.description=Проголосувати за кік гравця із зазначенням причини.;
+commands.sync.description=Повторна синхронізація стану світу.;
+commands.help.description=Показати список усіх команд.;
+commands.rtv.description=Проголосувати за пропуск карти.;
+commands.vote.description=Проголосувати за поточний кік гравця. Адміни можуть скасувати голосування за допомогою 'c';
+commands.ban.description=Забанити гравця;
+commands.team.description=Змінити вашу команду;
+
+commands.slot.description=ПОГНАЛИ ГРАТИ!;
+commands.shop.description=Тут можна купувати юнітів!;
+commands.hidden.description=Приховати ваші права адміністратора від інших;
+commands.link.description=Прив'язати ваш Discord акаунт до ігрового;
+commands.artv.description=Завершити гру;
+commands.discord.descripton=Отримати посилання на наш Discord;
+commands.stats.description=Переглянути вашу статистику гри на сервері;
+commands.economy.description=Переглянути гайд по економіці;
