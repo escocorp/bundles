@@ -1,1 +1,147 @@
+vnw.votedy=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
+vnw.votedn=[stat]玩家 {0} [stat]投票[red]反对[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
+vnw.pass=[stat]跳过波次投票已通过！;
+vnw.failed=[stat]跳过波次投票未通过！;
 
+infomessage.economyguide=如何变得富有指南。
+每建造50个方块，你会根据游戏模式获得1到3金币。
+每通过一波，你会根据模式获得3到5金币。
+你可以通过 /shop 命令在黑市花费金币购买物品。
+你也可以通过 /slot <赌注> 命令玩老虎机来赚取或花费金币。;
+
+slots.win={0} [yellow]正在转动老虎机！
+[lightgray][{1}] [{2}] [{3}]
+[green]赢得：${4};
+
+slots.fail={0} [yellow]正在转动老虎机！
+[lightgray][{1}] [{2}] [{3}]
+[red]失败：-${4};
+
+slots.smollbet=[scarlet]赌注必须大于 0！;
+
+menus.slots.win=[green]赢得：${0};
+menus.slots.fail=[red]失败：-${0};
+
+menu.shop.title=[yellow]黑市;
+menu.shop.unitbuy=[stat]玩家 {0} [stat]购买了 [white]{1}[stat]，花费 [green]$[lightgray]{2};
+menu.shop.healcores=[green]修复核心;
+menu.shop.advertise.healcores=[stat]玩家 {0} [stat]花费 [green]$[lightgray]2500 [stat]修复了所有 [white]{1} [stat]核心;
+menu.shop.nomoney=[scarlet]你的金币不足！;
+
+advertise.banned=[scarlet]玩家 [lightgray][{0}] {1} [scarlet]因 [lightgray]{3} [scarlet]被封禁 {2};
+votekick.immune=[scarlet]这个玩家无法被踢出！;
+advertise.admins=[stat]服务器正在招募管理员，也许我们正需要你！
+[lightgray]{0};
+advertise.discord=[stat]欢迎加入我们的 [blue]Discord！
+[lightgray]{0};
+advertise.reports=[stat]如果你发现违规行为，可以在我们的 [blue]Discord
+[lightgray]{0}
+或发送邮件至 contact@larzed.icu 举报;
+votekick.targetleft=[lightgray]投票已通过，玩家已离开服务器！;
+
+kick.graylisted=你的 IP 已被列入黑名单！
+如需解除，请前往我们的 Discord 服务器
+{0};
+
+menu.welcome.title=欢迎菜单;
+menu.welcome.message=你好，欢迎来到 EscoCorp。
+这个服务器有点像 404ru，原因如下：
+目前 404 使用的 EscoPlugin 有部分是由我制作的，因此一些功能实现可能会相似。
+服务器所有者是 [#ffaf]yolo[] aka [#abcdef]grely[]。
+简而言之：不要恶意破坏，不要当混蛋，遵循常识，不要太菜，也不要 RP。;
+
+menus.dontshow=不再显示;
+menus.close=[red]关闭;
+
+args.mustbeint=参数 {0} 必须是数字！;
+args.lessthan=参数 {0} 必须小于 {1};
+
+noperms=[scarlet]你没有权限执行此操作;
+botcheck=[scarlet]请重新连接。;
+unitdespawn=[stat]单位删除时间！;
+logic.antilag=[scarlet]请不要建造卡服机器！;
+
+messages.join=[{0}] [green]玩家 {1} [green]加入了服务器！;
+messages.leave=[{0}] [red]玩家 {1} [red]离开了服务器！;
+
+admin.kicked=[scarlet]你被踢出了服务器，执行者：[white];
+team.changed=[green]你现在属于队伍[white];
+banned=[scarlet]你已被封禁！[white]
+Ban ID: {3}
+原因：{0}
+解封时间：{1}
+如果你不同意该封禁，请尝试申诉！！
+你可以在我们的 Discord 服务器申诉：{2}
+或发送邮件至 contact@larzed.icu;
+
+muted=[scarlet]你因 {0} 被禁言 [scarlet]。解除时间：{1};
+
+discord.link=现在请加入我们的 Discord 并发送
+{0}link {1}
+到任意频道！
+在过程中不要退出服务器！
+[blue]Discord:[] {2};
+
+rtv.error.voted=[scarlet]你已经投过票了。坐下。;
+rtv.playervoted=[stat]RTV：玩家 {0} [stat]投票跳过地图！票数：{1} [lightgray](/rtv y/n);
+rtv.playerleft=[scarlet]RTV：玩家 {0} [stat]离开了！票数：{1} [lightgray](/rtv y/n);
+
+rtv.failed=投票失败。票数不足，无法跳过地图。票数 {0}/{1};
+rtv.votey=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
+rtv.voten=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
+rtv.voteymap=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
+rtv.votenmap=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
+
+rtv.pass=[green]跳过地图投票成功！;
+
+votekick.disabled=[scarlet]这里已禁用投票踢人！;
+votekick.fewplayers=[scarlet]至少需要 3 名玩家才能发起投票踢人！;
+votekick.localplayer=[scarlet]如果你是主机，直接自己踢掉玩家吧。;
+votekick.alreadystarted=[scarlet]投票已经开始！;
+votekick.noreason=[scarlet]踢人需要理由。请在玩家昵称后添加理由。;
+votekick.kickyouself=[scarlet]你不能踢自己！;
+votekick.admin=[scarlet]你真觉得自己能踢管理员吗？;
+votekick.localplayer2=[scarlet]本地玩家无法被踢出！;
+votekick.onlyyourteam=[scarlet]只能踢出你队伍中的玩家！;
+votekick.wait=[scarlet]你必须等待 {0} 分钟后才能再次发起投票！;
+votekick.start=[lightgray]原因：[orange] {0}[lightgray].;
+votekick.playernotfound=[scarlet]未找到玩家 [orange] '{0}' [scarlet]！;
+
+votekick.failed=[lightgray]投票失败。票数不足，无法踢出[orange] {0}[lightgray];
+votekick.voted=[lightgray]{0}[lightgray] 投票踢出[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]输入[orange] /vote <y/n>[] 进行投票。;
+votekick.passed=[orange]投票成功。[scarlet] {0}[orange] 将被服务器封禁 {1} 分钟。;
+
+vote.novoteinprogress=[scarlet]当前没有进行中的投票！;
+vote.canceledbyadmin=[lightgray]投票被管理员[orange] {0}[lightgray]取消。;
+vote.local=[scalret]本地玩家无法投票！直接自己踢掉他吧！;
+vote.alreadyvoted=[scarlet]你已经投票 {0}。坐下。;
+vote.targetisplayer=[scarlet]你不能给自己投票！;
+vote.otherteam=[scarlet]你不能对其他队伍投票！;
+vote.unknownvote=[scarlet]请选择 'y'（是）或 'n'（否）。;
+
+commands.nodesc=暂无描述。;
+commands.unknownpage=[scarlet]未知页面！;
+commands.didyoumean=[scarlet]未知命令。你是不是想输入 [lightgray]"{0}"[]？;
+commands.unknown=[scarlet]未知命令。请查看 [lightgray]/help[scarlet].;
+commands.manyargs=[scarlet]参数过多。用法：[lightgray] {0}[gray] {1};
+commands.fewargs=[scarlet]参数不足。用法：[lightgray] {0}[gray] {1};
+
+commands.t.description=仅向你的队伍发送消息。;
+commands.a.description=仅向管理员发送消息。;
+commands.votekick.description=发起投票踢出玩家并附带理由。;
+commands.sync.description=重新同步世界状态。;
+commands.help.description=显示所有命令列表。;
+commands.rtv.description=投票跳过地图。;
+commands.vote.description=对当前踢人投票进行投票。管理员可以使用 'c' 取消投票;
+commands.ban.description=封禁玩家;
+commands.team.description=更换你的队伍;
+
+commands.slot.description=LETS GO GAMBLING!;
+commands.shop.description=在这里购买单位！;
+commands.hidden.description=对其他人隐藏你的管理员权限;
+commands.link.description=绑定你的 Discord 账号与游戏账号;
+commands.artv.description=结束游戏;
+commands.discord.descripton=获取我们的 Discord 链接;
+commands.stats.description=查看你在服务器上的游戏统计;
+commands.economy.description=查看经济系统指南;
