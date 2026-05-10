@@ -1,4 +1,3 @@
-test=test;
 vnw.votedy=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
 vnw.votedn=[stat]玩家 {0} [stat]投票[red]反对[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
 vnw.pass=[stat]跳过波次投票已通过！;
