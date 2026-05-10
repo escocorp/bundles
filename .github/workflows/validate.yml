@@ -22,3 +22,5 @@ jobs:
         run: node validator.js en
       - name: Validate uk_UA
         run: node validator.js uk_UA
+      - name: Validate zh_CN
+        run: node validator.js zh_CN
