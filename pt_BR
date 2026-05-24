@@ -1,0 +1,147 @@
+vnw.votedy=[stat]Jogador {0} [stat]votou [green]SIM[stat] para pular a onda! {1}/{2} [lightgray](/vnw y/n);
+vnw.votedn=[stat]Jogador {0} [stat]votou [red]NÃO[stat] para pular a onda! {1}/{2} [lightgray](/vnw y/n);
+vnw.pass=[stat]Votação para pular a onda aprovada!;
+vnw.failed=[stat]Votação para pular a onda rejeitada!;
+
+infomessage.economyguide=Guia de como ficar rico.
+Para cada 50 blocos você recebe de 1 a 3 coins no saldo dependendo do modo de jogo.
+Para cada onda concluída você recebe de 3 a 5 coins no saldo dependendo do modo.
+Os coins do saldo podem ser gastos comprando itens no mercado negro usando o comando /shop.
+Também é possível ganhar ou gastar coins jogando slots com o comando /slot <aposta>;
+
+slots.win={0} [yellow]está girando o slot!
+[lightgray][{1}] [{2}] [{3}]
+[green]Ganho: ${4};
+
+slots.fail={0} [yellow]está girando o slot!
+[lightgray][{1}] [{2}] [{3}]
+[red]perda: -${4};
+
+slots.smollbet=[scarlet]A aposta deve ser > 0;
+
+menus.slots.win=[green]Ganho: ${0};
+menus.slots.fail=[red]Perda: -${0};
+
+menu.shop.title=[yellow]Mercado Negro;
+menu.shop.unitbuy=[stat]Jogador {0} [stat]comprou [white]{1}[stat] por [green]$[lightgray]{2};
+menu.shop.healcores=[green]Reparar núcleos;
+menu.shop.advertise.healcores=[stat]Jogador {0} [stat]reparou todos os núcleos [white]{1} [stat]por [green]$[lightgray]2500;
+menu.shop.nomoney=[scarlet]Você não tem coins suficientes!;
+
+advertise.banned=[scarlet]Jogador [lightgray][{0}] {1} [scarlet]foi banido por {2} pela razão [lightgray]{3};
+votekick.immune=[scarlet]Este jogador não pode ser expulso!;
+advertise.admins=[stat]O servidor está recrutando administradores, talvez precisemos de você!
+[lightgray]{0};
+advertise.discord=[stat]Entre no nosso [blue]Discord!
+[lightgray]{0};
+advertise.reports=[stat]Se você notar alguma violação, pode denunciar no nosso [blue]Discord
+[lightgray]{0}
+ou pelo e-mail contact@larzed.icu;
+votekick.targetleft=[lightgray]Votação aceita, o jogador saiu do servidor!;
+
+kick.graylisted=Seu IP está na lista negra!
+Para removê-lo, entre em contato no nosso Discord
+{0};
+
+menu.welcome.title=Menu de boas-vindas;
+menu.welcome.message=Olá, você está no EscoCorp.
+O servidor é parecido com o 404ru, vou explicar o porquê
+O EscoPlugin que está no 404 foi parcialmente feito por mim, por isso algumas coisas podem ser parecidas
+O dono é [#ffaf]yolo[] aka [#abcdef]grely[].
+Resumindo as regras: não grief, não seja babaca, siga a lógica, não seja noob e não faça RP.;
+
+menus.dontshow=Não mostrar;
+menus.close=[red]Fechar;
+
+args.mustbeint=O argumento {0} deve ser um número!;
+args.lessthan=O argumento {0} deve ser menor que {1};
+
+noperms=[scarlet]Você não tem permissão para fazer isso;
+botcheck=[scarlet]Por favor reconecte.;
+unitdespawn=[stat]Tempo de remoção de unidades!;
+logic.antilag=[scarlet]Não construa máquinas de lag!;
+
+messages.join=[{0}] [green]Jogador {1} [green]entrou no servidor!;
+messages.leave=[{0}] [red]Jogador {1} [red]saiu do servidor!;
+
+admin.kicked=[scarlet]Você foi expulso[white];
+team.changed=[green]Agora você está na equipe[white];
+banned=[scarlet]Você foi banido![white]
+Ban ID: {3}
+Motivo: {0}
+Desbanimento em: {1}
+SE VOCÊ NÃO CONCORDA COM O BAN, TENTE RECORRER!!
+Você pode recorrer no nosso Discord {2}
+Ou pelo endereço contact@larzed.icu;
+
+muted=[scarlet]Você está mutado por {0} [scarlet]. Desmute em {1};
+
+discord.link=Agora entre no nosso Discord e digite
+{0}link {1}
+em qualquer canal!
+Não saia do servidor durante o processo!
+[blue]Discord:[] {2};
+
+rtv.error.voted=[scarlet]Você já votou. Senta.;
+rtv.playervoted=[stat]RTV: Jogador {0} [stat]votou para pular o mapa! Votos: {1} [lightgray](/rtv y/n);
+rtv.playerleft=[scarlet]RTV: Jogador {0} [stat]saiu! Votos: {1} [lightgray](/rtv y/n);
+
+rtv.failed=Votação falhou. Votos insuficientes para pular o mapa. Votos {0}/{1};
+rtv.votey=[stat]Jogador {0} [stat]votou [green]SIM[stat] para pular o mapa! Votos: {1}/{2} [lightgray](/rtv y/n);
+rtv.voten=[stat]Jogador {0} [stat]votou [scarlet]NÃO[stat] para pular o mapa! Votos: {1}/{2} [lightgray](/rtv y/n);
+rtv.voteymap=[stat]Jogador {0} [stat]votou [green]SIM[stat] para pular o mapa! Votos: {1}/{2} Mapa: {3} [lightgray](/rtv y/n);
+rtv.votenmap=[stat]Jogador {0} [stat]votou [scarlet]NÃO[stat] para pular o mapa! Votos: {1}/{2} Mapa: {3} [lightgray](/rtv y/n);
+
+rtv.pass=[green]Votação para pular o mapa bem-sucedida!;
+
+votekick.disabled=[scarlet]Votação para expulsar está desativada aqui!;
+votekick.fewplayers=[scarlet]São necessários pelo menos 3 jogadores para iniciar uma votação de expulsão!;
+votekick.localplayer=[scarlet]Simplesmente expulse o jogador manualmente se você for o host.;
+votekick.alreadystarted=[scarlet]A votação já começou!;
+votekick.noreason=[scarlet]É necessário um motivo para expulsar o jogador. Adicione após o nome.;
+votekick.kickyouself=[scarlet]Você não pode se expulsar!;
+votekick.admin=[scarlet]Você realmente achou que poderia expulsar um admin?;
+votekick.localplayer2=[scarlet]Jogador local não pode ser expulso!;
+votekick.onlyyourteam=[scarlet]Apenas jogadores do seu time podem ser expulsos!;
+votekick.wait=[scarlet]Você deve esperar {0} minutos antes de iniciar outra votação!;
+votekick.start=[lightgray]Motivo:[orange] {0}[lightgray].;
+votekick.playernotfound=[scarlet]Jogador [orange] '{0}' [scarlet] não encontrado!;
+
+votekick.failed=[lightgray]Votação falhou. Votos insuficientes para expulsar[orange] {0}[lightgray];
+votekick.voted=[lightgray]{0}[lightgray] votou para expulsar[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]Digite[orange] /vote <y/n>[] para votar.;
+votekick.passed=[orange]Votação bem-sucedida.[scarlet] {0}[orange] será banido do servidor por {1} minutos.;
+
+vote.novoteinprogress=[scarlet]Não há votação em andamento!;
+vote.canceledbyadmin=[lightgray]Votação cancelada pelo admin[orange] {0}[lightgray].;
+vote.local=[scalret]Jogadores locais não podem votar! Simplesmente expulse-o manualmente!;
+vote.alreadyvoted=[scarlet]Você já votou {0}. Senta.;
+vote.targetisplayer=[scarlet]Você não pode votar em si mesmo!;
+vote.otherteam=[scarlet]Você não pode votar em outros times!;
+vote.unknownvote=[scarlet]Escolha entre 'y' (sim) ou 'n' (não).;
+
+commands.nodesc=Sem descrição.;
+commands.unknownpage=[scarlet]Página desconhecida!;
+commands.didyoumean=[scarlet]Comando desconhecido. Você quis dizer [lightgray]"{0}"[]?;
+commands.unknown=[scarlet]Comando desconhecido. Veja [lightgray]/help[scarlet].;
+commands.manyargs=[scarlet]Argumentos demais. Uso:[lightgray] {0}[gray] {1};
+commands.fewargs=[scarlet]Poucos argumentos. Uso:[lightgray] {0}[gray] {1};
+
+commands.t.description=Enviar mensagem apenas para sua equipe.;
+commands.a.description=Enviar mensagem apenas para administradores.;
+commands.votekick.description=Votar para expulsar um jogador com motivo.;
+commands.sync.description=Re-sincronizar o estado do mundo.;
+commands.help.description=Mostrar lista de comandos.;
+commands.rtv.description=Votar para pular o mapa.;
+commands.vote.description=Votar na expulsão atual. Admins podem cancelar com 'c';
+commands.ban.description=Banir um jogador;
+commands.team.description=Trocar sua equipe;
+
+commands.slot.description=LETS GO GAMBLING!;
+commands.shop.description=Aqui você pode comprar unidades!;
+commands.hidden.description=Esconder seus privilégios de admin dos outros;
+commands.link.description=Vincular sua conta Discord ao jogo;
+commands.artv.description=Encerrar o jogo;
+commands.discord.descripton=Obter link do nosso Discord;
+commands.stats.description=Ver suas estatísticas no servidor;
+commands.economy.description=Ver guia da economia;
