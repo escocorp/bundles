@@ -161,3 +161,15 @@ commands.history.description=Посмотреть историю блоков;
 commands.discord.description=Получить ссылку на дискорд;
 commands.captured.description=Посмотреть кол-во захваченных вами хексов;
 commands.hexstatus.description=Посмотреть статус текущего хекса;
+
+# Shop Categories
+units=Юниты;
+items=Предметы;
+other=Разное;
+
+
+units=Юниты;
+
+items=Предметы;
+
+other=Разное;

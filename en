@@ -159,3 +159,9 @@ commands.history.description=View block history;
 commands.discord.description=Get the Discord invite link;
 commands.captured.description=View the number of hexes you have captured;
 commands.hexstatus.description=View the status of the current hex;
+
+units=Units;
+
+items=Items;
+
+other=Other;

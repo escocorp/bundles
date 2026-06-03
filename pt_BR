@@ -161,3 +161,9 @@ commands.history.description=Ver o histórico de blocos;
 commands.discord.description=Obter o link do Discord;
 commands.captured.description=Ver a quantidade de hexágonos capturados por você;
 commands.hexstatus.description=Ver o status do hexágono atual;
+
+units=Unidades;
+
+items=Itens;
+
+other=Outros;

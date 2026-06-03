@@ -161,3 +161,9 @@ commands.history.description=Переглянути історію блоків;
 commands.discord.description=Отримати посилання на Discord;
 commands.captured.description=Переглянути кількість захоплених вами гексів;
 commands.hexstatus.description=Переглянути статус поточного гекса;
+
+units=Юніти;
+
+items=Предмети;
+
+other=Інше;
