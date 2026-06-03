@@ -161,3 +161,9 @@ commands.history.description=查看方块历史记录;
 commands.discord.description=获取 Discord 邀请链接;
 commands.captured.description=查看您已占领的六边形数量;
 commands.hexstatus.description=查看当前六边形的状态;
+
+units=单位;
+
+items=道具;
+
+other=其他;
