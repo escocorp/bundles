@@ -217,8 +217,8 @@ crawler.commands.info=[accent]每一波结束后，所有玩家获得相同数�
 
 crawler.labels.money=[gold]余额: {0};
 
-commands.unit.description=升级到另一种单位。指定数量时则会购买与您并肩作战的单位；
-commands.give.description=向其他玩家赠送金币；
-commands.info.description=显示爬行者竞技场模式的信息；
-commands.upgrades.description=显示可升级的单位；
-commands.cost.description=查询单位价格；
+commands.unit.description=升级到另一种单位。指定数量时则会购买与您并肩作战的单位;
+commands.give.description=向其他玩家赠送金币;
+commands.info.description=显示爬行者竞技场模式的信息;
+commands.upgrades.description=显示可升级的单位;
+commands.cost.description=查询单位价格;
