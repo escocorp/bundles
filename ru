@@ -166,45 +166,45 @@ units=Юниты;
 items=Предметы;
 other=Разное;
 
-crawler.events.victory = [green]Вы победили за {0} секунд.\n[scarlet]А теперь, сразитесь с этим.;
-crawler.events.boss = [scarlet]Аннигиляция неизбежна. Вам не выжить. Оно уже рядом.;
-crawler.events.why-alive = [red]Почему вы еще не проиграли?;
-crawler.events.what-so-long = [red]Что заставляет вас сражаться так отчаянно?;
-crawler.events.good-game = [red]Вы все еще живы... Впечатляет...;
+crawler.events.victory=[green]Вы победили за {0} секунд.\n[scarlet]А теперь, сразитесь с этим.;
+crawler.events.boss=[scarlet]Аннигиляция неизбежна. Вам не выжить. Оно уже рядом.;
+crawler.events.why-alive=[red]Почему вы еще не проиграли?;
+crawler.events.what-so-long=[red]Что заставляет вас сражаться так отчаянно?;
+crawler.events.good-game=[red]Вы все еще живы... Впечатляет...;
 
-crawler.events.heal = [#{0}]Прочность юнита восстановлена.;
-crawler.events.aid = [green]Подкрепление уже в пути.;
-crawler.events.gameover.lose = [red]Вы потерпели поражение.;
-crawler.events.gameover.win = [green]Победа.;
+crawler.events.heal=[#{0}]Прочность юнита восстановлена.;
+crawler.events.aid=[green]Подкрепление уже в пути.;
+crawler.events.gameover.lose=[red]Вы потерпели поражение.;
+crawler.events.gameover.win=[green]Победа.;
 
-crawler.events.first-wave = [red]Первая волна наступит через {0} секунд.;
-crawler.events.wave = [red]Следующая волна через {0} секунд.;
-crawler.events.next-wave = [yellow]Следующая волна через {0} секунд.;
+crawler.events.first-wave=[red]Первая волна наступит через {0} секунд.;
+crawler.events.wave=[red]Следующая волна через {0} секунд.;
+crawler.events.next-wave=[yellow]Следующая волна через {0} секунд.;
 
-crawler.events.tip.info = [cyan]Для получения полезной информации по прокачке юнитов, напишите /info.;
-crawler.events.tip.upgrades = [cyan]Чтобы узнать всех доступных для прокачки юнитов, напишите /upgrades.;
-crawler.events.join.welcome = [cyan]Добро пожаловать на Арену Кравлеров. Используйте /info для получения полезной информации об этом режиме.;
-crawler.events.join.already-played = [cyan]Кажется, вы уже играли в этом матче. Ваш баланс и юнит были восстановлены.;
+crawler.events.tip.info=[cyan]Для получения полезной информации по прокачке юнитов, напишите /info.;
+crawler.events.tip.upgrades=[cyan]Чтобы узнать всех доступных для прокачки юнитов, напишите /upgrades.;
+crawler.events.join.welcome=[cyan]Добро пожаловать на Арену Кравлеров. Используйте /info для получения полезной информации об этом режиме.;
+crawler.events.join.already-played=[cyan]Кажется, вы уже играли в этом матче. Ваш баланс и юнит были восстановлены.;
 
 
-crawler.commands.upgrade.use-unit = [scarlet]Команда была переименована, используйте [orange]/unit <имя>[]!;
-crawler.commands.upgrade.unit-not-found = [scarlet]Юнит не найден! Используйте [orange]/upgrades[], чтобы увидеть список доступных юнитов!;
-crawler.commands.upgrade.already = [scarlet]Дополнительный юнит куплен.;
-crawler.commands.upgrade.success = [green]Юнит успешно улучшен!;
-crawler.commands.upgrade.not-enough-money = [scarlet]На балансе недостаточно средств для приобретения этого юнита!;
-crawler.commands.upgrade.too-many-units = [scarlet]На карте слишком много юнитов этого типа.;
+crawler.commands.upgrade.use-unit=[scarlet]Команда была переименована, используйте [orange]/unit <имя>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]Юнит не найден! Используйте [orange]/upgrades[], чтобы увидеть список доступных юнитов!;
+crawler.commands.upgrade.already=[scarlet]Дополнительный юнит куплен.;
+crawler.commands.upgrade.success=[green]Юнит успешно улучшен!;
+crawler.commands.upgrade.not-enough-money=[scarlet]На балансе недостаточно средств для приобретения этого юнита!;
+crawler.commands.upgrade.too-many-units=[scarlet]На карте слишком много юнитов этого типа.;
 
-crawler.commands.upgrades.header = [accent]Список доступных юнитов для прокачки:\n[];
-crawler.commands.upgrades.page = [accent][Страница {0}/{1}];
+crawler.commands.upgrades.header=[accent]Список доступных юнитов для прокачки:\n[];
+crawler.commands.upgrades.page=[accent][Страница {0}/{1}];
 
-crawler.commands.give.player-not-found = [scarlet]Игрок не найден! Учтите, что писать полное имя не нужно.;
-crawler.commands.give.success = [yellow]{0} [green]монет передано {1}[green].;
-crawler.commands.give.money-recieved = [yellow]{0} [green]монет получено от {1}[green].;
-crawler.commands.give.not-enough-money = [scarlet]На балансе недостаточно средств.;
+crawler.commands.give.player-not-found=[scarlet]Игрок не найден! Учтите, что писать полное имя не нужно.;
+crawler.commands.give.success=[yellow]{0} [green]монет передано {1}[green].;
+crawler.commands.give.money-recieved=[yellow]{0} [green]монет получено от {1}[green].;
+crawler.commands.give.not-enough-money=[scarlet]На балансе недостаточно средств.;
 
-crawler.exceptions.invalid-amount = [scarlet]Неподходящее количество.;
+crawler.exceptions.invalid-amount=[scarlet]Неподходящее количество.;
 
-crawler.commands.info = [accent]После каждой волны всем игрокам начисляется одинаковое количество монет.
+crawler.commands.info=[accent]После каждой волны всем игрокам начисляется одинаковое количество монет.
 Монеты можно потратить на прокачку юнитов.
 Твой баланс отображается вверху экрана.
 Команды принимают типы юнитов на английском языке.
@@ -216,4 +216,4 @@ crawler.commands.info = [accent]После каждой волны всем иг
 Прокачка до своего же юнита покупает дополнительный юнит (не возрождается).
 Продержись 25 волн и убей босса чтобы победить.;
 
-crawler.labels.money = [gold]Баланс: {0};
+crawler.labels.money=[gold]Баланс: {0};
