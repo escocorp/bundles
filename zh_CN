@@ -163,7 +163,56 @@ commands.captured.description=查看您已占领的六边形数量;
 commands.hexstatus.description=查看当前六边形的状态;
 
 units=单位;
-
 items=道具;
-
 other=其他;
+
+crawler.events.victory=[green]你在 {0} 秒内获胜。\n[scarlet]现在，面对这个敌人。;
+crawler.events.boss=[scarlet]湮灭不可避免。你无法生存。它已经在附近了。;
+crawler.events.why-alive=[red]你为什么还没有失败？;
+crawler.events.what-so-long=[red]是什么让你如此拼命战斗？;
+crawler.events.good-game=[red]你还活着……令人印象深刻……;
+
+crawler.events.heal=[#{0}]单位耐久已恢复。;
+crawler.events.aid=[green]增援正在赶来。;
+crawler.events.gameover.lose=[red]你已被击败。;
+crawler.events.gameover.win=[green]胜利。;
+
+crawler.events.first-wave=[red]第一波将在 {0} 秒后到来。;
+crawler.events.wave=[red]下一波在 {0} 秒后到来。;
+crawler.events.next-wave=[yellow]下一波在 {0} 秒后到来。;
+
+crawler.events.tip.info=[cyan]输入 /info 查看单位升级信息。;
+crawler.events.tip.upgrades=[cyan]输入 /upgrades 查看所有可升级单位。;
+crawler.events.join.welcome=[cyan]欢迎来到爬行者竞技场。使用 /info 获取该模式信息。;
+crawler.events.join.already-played=[cyan]你似乎已经参加过这场比赛。你的金币和单位已恢复。;
+
+crawler.commands.upgrade.use-unit=[scarlet]指令已更名，请使用 [orange]/unit <名称>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]未找到单位！使用 [orange]/upgrades[] 查看可用单位!;
+crawler.commands.upgrade.already=[scarlet]已购买额外单位。;
+crawler.commands.upgrade.success=[green]单位升级成功!;
+crawler.commands.upgrade.not-enough-money=[scarlet]金币不足，无法购买该单位!;
+crawler.commands.upgrade.too-many-units=[scarlet]地图上该类型单位过多。;
+
+crawler.commands.upgrades.header=[accent]可升级单位列表:\n[];
+crawler.commands.upgrades.page=[accent][第 {0}/{1} 页];
+
+crawler.commands.give.player-not-found=[scarlet]未找到玩家！无需输入完整名称。;
+crawler.commands.give.success=[yellow]{0} [green]金币已转给 {1}[green].;
+crawler.commands.give.money-recieved=[yellow]{0} [green]金币已从 {1} 处收到[green].;
+crawler.commands.give.not-enough-money=[scarlet]金币不足。;
+
+crawler.exceptions.invalid-amount=[scarlet]数量无效。;
+
+crawler.commands.info=[accent]每一波结束后，所有玩家获得相同数量的金币。
+金币可用于升级单位。
+你的余额显示在屏幕顶部。
+命令接受英文单位类型。
+/upgrades - 查看所有单位及其价格。
+/cost <类型> - 显示单位价格，无需完整名称。
+/unit <类型> [数量] - 使用金币升级单位，可使用简写。如果指定数量，则单独购买新单位。
+/give <数量> <名称> - 向其他玩家赠送金币。
+死亡后的升级会让你复活。\
+升级到自己的单位会额外购买一个单位（不会复活）。
+坚持25波并击败Boss即可获胜。;
+
+crawler.labels.money=[gold]余额: {0};
