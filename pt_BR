@@ -163,7 +163,56 @@ commands.captured.description=Ver a quantidade de hexágonos capturados por voc�
 commands.hexstatus.description=Ver o status do hexágono atual;
 
 units=Unidades;
-
 items=Itens;
-
 other=Outros;
+
+crawler.events.victory=[green]Você venceu em {0} segundos.\n[scarlet]Agora, enfrente isto.;
+crawler.events.boss=[scarlet]A aniquilação é inevitável. Você não sobreviverá. Ele já está perto.;
+crawler.events.why-alive=[red]Por que você ainda não perdeu?;
+crawler.events.what-so-long=[red]O que faz você lutar tão desesperadamente?;
+crawler.events.good-game=[red]Você ainda está vivo... impressionante...;
+
+crawler.events.heal=[#{0}]Durabilidade da unidade restaurada.;
+crawler.events.aid=[green]Reforços estão a caminho.;
+crawler.events.gameover.lose=[red]Você foi derrotado.;
+crawler.events.gameover.win=[green]Vitória.;
+
+crawler.events.first-wave=[red]A primeira onda chega em {0} segundos.;
+crawler.events.wave=[red]Próxima onda em {0} segundos.;
+crawler.events.next-wave=[yellow]Próxima onda em {0} segundos.;
+
+crawler.events.tip.info=[cyan]Para informações de melhorias de unidades, digite /info.;
+crawler.events.tip.upgrades=[cyan]Para ver todas as unidades disponíveis, digite /upgrades.;
+crawler.events.join.welcome=[cyan]Bem-vindo à Arena Crawler. Use /info para informações úteis sobre este modo.;
+crawler.events.join.already-played=[cyan]Parece que você já jogou esta partida. Seu saldo e unidade foram restaurados.;
+
+crawler.commands.upgrade.use-unit=[scarlet]O comando foi renomeado, use [orange]/unit <nome>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]Unidade não encontrada! Use [orange]/upgrades[] para ver as disponíveis!;
+crawler.commands.upgrade.already=[scarlet]Unidade extra comprada.;
+crawler.commands.upgrade.success=[green]Unidade aprimorada com sucesso!;
+crawler.commands.upgrade.not-enough-money=[scarlet]Dinheiro insuficiente para comprar esta unidade!;
+crawler.commands.upgrade.too-many-units=[scarlet]Muitas unidades deste tipo no mapa.;
+
+crawler.commands.upgrades.header=[accent]Lista de unidades disponíveis para upgrade:\n[];
+crawler.commands.upgrades.page=[accent][Página {0}/{1}];
+
+crawler.commands.give.player-not-found=[scarlet]Jogador não encontrado! Não é necessário digitar o nome completo.;
+crawler.commands.give.success=[yellow]{0} [green]moedas enviadas para {1}[green].;
+crawler.commands.give.money-recieved=[yellow]{0} [green]moedas recebidas de {1}[green].;
+crawler.commands.give.not-enough-money=[scarlet]Saldo insuficiente.;
+
+crawler.exceptions.invalid-amount=[scarlet]Quantidade inválida.;
+
+crawler.commands.info=[accent]Após cada onda, todos os jogadores recebem a mesma quantidade de moedas.
+As moedas podem ser usadas para melhorar unidades.
+Seu saldo aparece no topo da tela.
+Os comandos aceitam tipos de unidades em inglês.
+/upgrades - ver todas as unidades disponíveis e seus custos.
+/cost <tipo> - mostrar custo da unidade.
+/unit <tipo> [quantidade] - melhorar sua unidade com moedas. Nomes parciais são aceitos. Se a quantidade for especificada, novas unidades são compradas separadamente.
+/give <quantidade> <nome> - dar dinheiro a outro jogador.
+Melhorar após a morte revive você.\
+Melhorar para sua própria unidade compra uma unidade adicional (sem reviver).
+Sobreviva a 25 ondas e mate o boss para vencer.;
+
+crawler.labels.money=[gold]Saldo: {0};
