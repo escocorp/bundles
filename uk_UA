@@ -163,7 +163,57 @@ commands.captured.description=Переглянути кількість захо
 commands.hexstatus.description=Переглянути статус поточного гекса;
 
 units=Юніти;
-
 items=Предмети;
-
 other=Інше;
+
+
+crawler.events.victory=[green]Ви перемогли за {0} секунд.\n[scarlet]А тепер бій з цим.;
+crawler.events.boss=[scarlet]Анiгiляцiя неминуча. Ви не виживете. Воно вже поруч.;
+crawler.events.why-alive=[red]Чому ви ще не програли?;
+crawler.events.what-so-long=[red]Що змушує вас так відчайдушно битися?;
+crawler.events.good-game=[red]Ви все ще живі... Вражає...;
+
+crawler.events.heal=[#{0}]Міцність юніта відновлено.;
+crawler.events.aid=[green]Підкріплення вже в дорозі.;
+crawler.events.gameover.lose=[red]Ви зазнали поразки.;
+crawler.events.gameover.win=[green]Перемога.;
+
+crawler.events.first-wave=[red]Перша хвиля почнеться через {0} секунд.;
+crawler.events.wave=[red]Наступна хвиля через {0} секунд.;
+crawler.events.next-wave=[yellow]Наступна хвиля через {0} секунд.;
+
+crawler.events.tip.info=[cyan]Для інформації про покращення юнітів введіть /info.;
+crawler.events.tip.upgrades=[cyan]Щоб переглянути доступні юніти для покращення, введіть /upgrades.;
+crawler.events.join.welcome=[cyan]Ласкаво просимо до Арени Кравлерів. Використовуйте /info для корисної інформації про цей режим.;
+crawler.events.join.already-played=[cyan]Схоже, ви вже грали в цьому матчі. Ваш баланс і юніт відновлено.;
+
+crawler.commands.upgrade.use-unit=[scarlet]Команду перейменовано, використовуйте [orange]/unit <назва>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]Юніт не знайдено! Використовуйте [orange]/upgrades[] для списку доступних юнітів!;
+crawler.commands.upgrade.already=[scarlet]Додатковий юніт придбано.;
+crawler.commands.upgrade.success=[green]Юніт успішно покращено!;
+crawler.commands.upgrade.not-enough-money=[scarlet]Недостатньо коштів для цього юніта!;
+crawler.commands.upgrade.too-many-units=[scarlet]Забагато юнітів цього типу на карті.;
+
+crawler.commands.upgrades.header=[accent]Список доступних юнітів для покращення:\n[];
+crawler.commands.upgrades.page=[accent][Сторінка {0}/{1}];
+
+crawler.commands.give.player-not-found=[scarlet]Гравця не знайдено! Повне ім'я вводити не потрібно.;
+crawler.commands.give.success=[yellow]{0} [green]монет передано {1}[green].;
+crawler.commands.give.money-recieved=[yellow]{0} [green]монет отримано від {1}[green].;
+crawler.commands.give.not-enough-money=[scarlet]Недостатньо коштів.;
+
+crawler.exceptions.invalid-amount=[scarlet]Некоректна кількість.;
+
+crawler.commands.info=[accent]Після кожної хвилі всі гравці отримують однакову кількість монет.
+Монети можна витрачати на покращення юнітів.
+Ваш баланс показується зверху екрана.
+Команди приймають типи юнітів англійською.
+/upgrades - переглянути доступні юніти та їх вартість.
+/cost <тип> - показати вартість юніта.
+/unit <тип> [кількість] - покращити юніта за монети. Можна використовувати скорочення. Якщо вказано кількість — купуються окремі юніти.
+/give <кількість> <ім'я> - передати гроші іншому гравцю.
+Покращення після смерті відроджує вас.\
+Покращення в свій же юніт додає додаткового юніта (без відродження).
+Протримайтеся 25 хвиль і вбийте боса, щоб перемогти.;
+
+crawler.labels.money=[gold]Баланс: {0};
