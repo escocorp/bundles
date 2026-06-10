@@ -161,7 +161,56 @@ commands.captured.description=View the number of hexes you have captured;
 commands.hexstatus.description=View the status of the current hex;
 
 units=Units;
-
 items=Items;
-
 other=Other;
+
+crawler.events.victory=[green]You won in {0} seconds.\n[scarlet]Now, face this.;
+crawler.events.boss=[scarlet]Annihilation is inevitable. You will not survive. It is already near.;
+crawler.events.why-alive=[red]Why haven't you lost yet?;
+crawler.events.what-so-long=[red]What makes you fight so desperately?;
+crawler.events.good-game=[red]You are still alive... Impressive...;
+
+crawler.events.heal=[#{0}]Unit durability restored.;
+crawler.events.aid=[green]Reinforcements are on the way.;
+crawler.events.gameover.lose=[red]You have been defeated.;
+crawler.events.gameover.win=[green]Victory.;
+
+crawler.events.first-wave=[red]First wave arrives in {0} seconds.;
+crawler.events.wave=[red]Next wave in {0} seconds.;
+crawler.events.next-wave=[yellow]Next wave in {0} seconds.;
+
+crawler.events.tip.info=[cyan]For unit upgrade info, type /info.;
+crawler.events.tip.upgrades=[cyan]To see all upgradable units, type /upgrades.;
+crawler.events.join.welcome=[cyan]Welcome to the Crawler Arena. Use /info for useful information about this mode.;
+crawler.events.join.already-played=[cyan]It seems you have already played this match. Your balance and unit have been restored.;
+
+crawler.commands.upgrade.use-unit=[scarlet]Command has been renamed, use [orange]/unit <name>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]Unit not found! Use [orange]/upgrades[] to see available units!;
+crawler.commands.upgrade.already=[scarlet]Extra unit purchased.;
+crawler.commands.upgrade.success=[green]Unit successfully upgraded!;
+crawler.commands.upgrade.not-enough-money=[scarlet]Not enough money to purchase this unit!;
+crawler.commands.upgrade.too-many-units=[scarlet]Too many units of this type on the map.;
+
+crawler.commands.upgrades.header=[accent]List of available upgrade units:\n[];
+crawler.commands.upgrades.page=[accent][Page {0}/{1}];
+
+crawler.commands.give.player-not-found=[scarlet]Player not found! You don't need to type the full name.;
+crawler.commands.give.success=[yellow]{0} [green]coins given to {1}[green].;
+crawler.commands.give.money-recieved=[yellow]{0} [green]coins received from {1}[green].;
+crawler.commands.give.not-enough-money=[scarlet]Not enough balance.;
+
+crawler.exceptions.invalid-amount=[scarlet]Invalid amount.;
+
+crawler.commands.info=[accent]After each wave, all players receive the same amount of coins.
+Coins can be spent on upgrading units.
+Your balance is shown at the top of the screen.
+Commands accept unit types in English.
+/upgrades - view all available units and their cost.
+/cost <type> - show unit cost. Full name not required.
+/unit <type> [amount] - upgrade your unit using coins. Partial names are allowed. If amount is specified, new units are purchased separately.
+/give <amount> <name> - give money to another player.
+Upgrading after death revives you.\
+Upgrading into your own unit buys an additional unit (no revive).
+Survive 25 waves and kill the boss to win.;
+
+crawler.labels.money=[gold]Balance: {0};
