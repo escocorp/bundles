@@ -217,3 +217,9 @@ crawler.commands.info=[accent]Після кожної хвилі всі грав
 Протримайтеся 25 хвиль і вбийте боса, щоб перемогти.;
 
 crawler.labels.money=[gold]Баланс: {0};
+
+commands.unit.description=Покращення до іншого юніта. Якщо вказати кількість, замість цього купуються юніти, що будуть битися разом із вами;
+commands.give.description=Передати гроші іншому гравцю;
+commands.info.description=Показати інформацію про режим Crawler Arena;
+commands.upgrades.description=Показати юніти, до яких можна покращитися;
+commands.cost.description=Дізнатися вартість юніта;

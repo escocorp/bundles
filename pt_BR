@@ -216,3 +216,9 @@ Melhorar para sua própria unidade compra uma unidade adicional (sem reviver).
 Sobreviva a 25 ondas e mate o boss para vencer.;
 
 crawler.labels.money=[gold]Saldo: {0};
+
+commands.unit.description=Atualize para outra unidade. Especificar uma quantidade compra unidades para lutar ao seu lado;
+commands.give.description=Dar dinheiro a outro jogador;
+commands.info.description=Mostrar informações sobre o modo Crawler Arena;
+commands.upgrades.description=Mostrar unidades para as quais você pode evoluir;
+commands.cost.description=Consultar o custo de uma unidade;

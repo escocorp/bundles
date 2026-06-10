@@ -217,3 +217,9 @@ crawler.commands.info=[accent]После каждой волны всем игр
 Продержись 25 волн и убей босса чтобы победить.;
 
 crawler.labels.money=[gold]Баланс: {0};
+
+commands.unit.description=Прокачка до другого юнита. Если указать количество, вместо этого будут куплены юниты, которые будут сражаться вместе с вами;
+commands.give.description=Передать деньги другому игроку;
+commands.info.description=Показать информацию о режиме Crawler Arena;
+commands.upgrades.description=Показать юниты, до которых можно прокачаться;
+commands.cost.description=Узнать стоимость юнита;
