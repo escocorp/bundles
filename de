@@ -201,7 +201,7 @@ commands.shop.description=Hier kannst du Einheiten kaufen!;
 commands.hidden.description=Deine Administratorrechte vor anderen verstecken;
 commands.link.description=Dein Discord-Konto mit dem Spiel verknüpfen;
 commands.artv.description=Das Spiel beenden;
-commands.discord.descripton=Einen Link zu unserem Discord erhalten;
+commands.discord.description=Einen Link zu unserem Discord erhalten;
 commands.stats.description=Deine Spielstatistiken auf dem Server anzeigen;
 commands.economy.description=Einen Leitfaden zur Wirtschaft anzeigen;
 
