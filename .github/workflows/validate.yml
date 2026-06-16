@@ -26,3 +26,5 @@ jobs:
         run: node validator.js zh_CN
       - name: Validate pt_BR
         run: node validator.js pt_BR
+      -name Validate de
+        run: node validator.js de
