@@ -1,225 +1,223 @@
-vnw.votedy=[stat] Player {0} [stat] voted [green] for the wave pass! {1}/{2} [lightgray](/vnw y/n);
-vnw.votedn=[stat]The player {0} [stat] voted [red] AGAINST the wave pass! {1}/{2} [lightgray](/vnw y/n);
-vnw.pass=[stat] Voting for the missed wave accepted!
-vnw.failed=[stat] Voting for missing wave rejected!
+vnw.votedy=[stat]Spieler {0} [stat]hat für das [green]Überspringen der Welle[stat] gestimmt! {1}/{2} [lightgray](/vnw y/n);
+vnw.votedn=[stat]Spieler {0} [stat]hat gegen das [red]Überspringen der Welle[stat] gestimmt! {1}/{2} [lightgray](/vnw y/n);
+vnw.pass=[stat]Die Abstimmung zum Überspringen der Welle wurde angenommen!;
+vnw.failed=[stat]Die Abstimmung zum Überspringen der Welle wurde abgelehnt!;
 
-Infomessage.economyguide=Guide to Getting Rich
-For every 50 blocks you get from 1 to 3 coins on the balance depending on the game mode.
-For each wave passed, you get from 3 to 5 coins on the balance, depending on the mode.
-Coins from the balance can be spent buying items on the black market, using the command /shop
-Also, coins can be both earned and spent playing slots, using the command /slot <bet>;
+infomessage.economyguide=Anleitung, wie man reich wird.
+Für jeweils 50 Blöcke erhältst du je nach Spielmodus 1 bis 3 Münzen.
+Für jede überstandene Welle erhältst du je nach Spielmodus 3 bis 5 Münzen.
+Münzen können auf dem Schwarzmarkt mit dem Befehl /shop ausgegeben werden.
+Außerdem kannst du Münzen durch Spielautomaten gewinnen oder verlieren mit /slot <Einsatz>;
 
-slots.win={0} [yellow] spins the slot!
-[Lightgray] [{1}] [{2}] [{3}]
-[green] Winning: ${4};
+slots.win={0} [yellow]dreht am Spielautomaten!
+[lightgray][{1}] [{2}] [{3}]
+[green]Gewinn: ${4};
 
-slots.fail={0} [yellow] spins the slot!
-[Lightgray] [{1}] [{2}] [{3}]
-[red]loss: -${4};
+slots.fail={0} [yellow]dreht am Spielautomaten!
+[lightgray][{1}] [{2}] [{3}]
+[red]Verlust: -${4};
 
-slots.smollbet=[scarlet]The bet must be > 0;
+slots.smollbet=[scarlet]Der Einsatz muss > 0 sein!;
 
-menus.slots.win=[green]Winning: ${0}
-menus.slots.fail=[red]Lose: -${0}
+menus.slots.win=[green]Gewinn: ${0};
+menus.slots.fail=[red]Verlust: -${0};
 
-menu.shop.title=[yellow]Black Market
-menu.shop.unitbuy=[stat]The player {0} [stat] bought [white]{1}[stat] for [green]$[lightgray]{2};
-menu.shop.healcores=[green]Repair kernels
-menu.shop.advertise.healcores=[stat] Player {0} [stat] has repaired all cores [white]{1} [stat] for [green]$[lightgray]2500;
-menu.shop.nomoney=[scarlet] You don't have enough coins!
+menu.shop.title=[yellow]Schwarzmarkt;
+menu.shop.unitbuy=[stat]Spieler {0} [stat]hat [white]{1}[stat] für [green]$[lightgray]{2} gekauft;
+menu.shop.healcores=[green]Kerne reparieren;
+menu.shop.advertise.healcores=[stat]Spieler {0} [stat]hat alle Kerne [white]{1} [stat]für [green]$[lightgray]2500 repariert;
+menu.shop.nomoney=[scarlet]Du hast nicht genug Münzen!;
 
-advertise.banned=[scarlet]A player [lightgray][{0}] {1} [scarlet] was banned from {2} because of [lightgray]{3};
-votekick.immune=[scarlet]This player can't be kicked!
-advertise.admins=[stat] The server is open for server administration, maybe we need you!
+advertise.banned=[scarlet]Spieler [lightgray][{0}] {1} [scarlet]wurde für {2} wegen [lightgray]{3} gebannt;
+votekick.immune=[scarlet]Dieser Spieler kann nicht gekickt werden!;
+advertise.admins=[stat]Wir suchen derzeit Administratoren für den Server. Vielleicht brauchen wir genau dich!
+[lightgray]{0};
+advertise.discord=[stat]Tritt unserem [blue]Discord bei!
+[lightgray]{0};
+advertise.reports=[stat]Falls du einen Regelverstoß bemerkst, kannst du ihn in unserem [blue]Discord melden
 [lightgray]{0}
-advertise.discord=[stat] Enter our [blue]discord!
-[lightgray]{0}
-advertise.reports=[stat] If you notice a violation, you can complain to our [blue]Discord
-[lightgray]
-or by mail contact@larzed.icu;
-votekick.targetleft=[lightgray]Vote accepted, player logged off the server!
+oder per E-Mail an contact@larzed.icu;
+votekick.targetleft=[lightgray]Abstimmung angenommen, der Spieler hat den Server verlassen!;
 
-kick.graylisted=Your IP is blacklisted!
-To remove it, contact our Discord server.
-{0}
+kick.graylisted=Deine IP steht auf der Sperrliste!
+Um die Sperre aufzuheben, kontaktiere unseren Discord-Server.
+{0};
 
-menu.welcome.title = Welcome menu
-menu.welcome.message=Hello, you're on EscoCorp.
-The server is similar to 404Ru, so let me explain why.
-The EscoPlugin which is now on the 404, part made by me, so the implementation of some things can sometimes be similar.
-Briefly by the rules, don't be a grifer, don't be an asshole, follow logic, don't be a nub, don't be a scumbag. ;
+menu.welcome.title=Willkommensmenü;
+menu.welcome.message=Hallo, willkommen bei EscoCorp.
+Der Server ähnelt in gewisser Weise 404ru, hier ist warum:
+Das EscoPlugin, das derzeit auf 404 läuft, wurde teilweise von mir entwickelt, daher können einige Funktionen ähnlich aussehen.
+Kurz zu den Regeln: Nicht griefen, kein Arschloch sein, logisch handeln, kein Noob sein und kein RP betreiben.;
 
-menus.dontshow=Do not show
-menus.close=[red]Close;
+menus.dontshow=Nicht anzeigen;
+menus.close=[red]Schließen;
 
-args.mustbeint=The argument {0} should be a number!
-args.lessthan=Argument {0} must be less than {1}
+args.mustbeint=Argument {0} muss eine Zahl sein!;
+args.lessthan=Argument {0} muss kleiner als {1} sein!;
 
-noperms=[scarlet] You do not have the right to do so.
-botcheck=[scarlet]Please reconnect. ;
-unitdespawn=[stat]Time to remove units!
-logic.antilag=[scarlet]Don't build lag machines!
+noperms=[scarlet]Du hast keine Berechtigung, diese Aktion auszuführen;
+botcheck=[scarlet]Bitte verbinde dich erneut.;
+unitdespawn=[stat]Zeit bis zum Entfernen von Einheiten!;
+logic.antilag=[scarlet]Baue keine Lag-Maschinen!;
 
-messages.join=[{0}] [green] The player {1} [green] logged in to the server!
-messages.leave=[{0}] [red] The player {1} [red] has logged off the server!
+messages.join=[{0}] [green]Spieler {1} [green]hat den Server betreten!;
+messages.leave=[{0}] [red]Spieler {1} [red]hat den Server verlassen!;
 
-admin.kicked=[scarlet]You shouted [white]
-team.changed=[green] Now you're on the team[white]
-Banned=[scarlet]You are banned![white]
-Ban ID: {3}
-Reason: {0}
-Spread through: {1}
-If you do not agree with the bath, then try to complain!!
-You can appeal to our discord server {2}
-Or contact@larzed.icu;
+admin.kicked=[scarlet]Du wurdest gekickt von[white];
+team.changed=[green]Du bist jetzt im Team[white];
+banned=[scarlet]Du wurdest gebannt![white]
+Ban-ID: {3}
+Grund: {0}
+Entbannung in: {1}
+WENN DU MIT DEM BAN NICHT EINVERSTANDEN BIST, KANNST DU EINEN EINSPRUCH EINLEGEN!!
+Dies ist auf unserem Discord-Server möglich: {2}
+Oder per E-Mail an contact@larzed.icu;
 
-You're killed because of {0} [scarlet]. Mixed through {1};
+muted=[scarlet]Du wurdest wegen {0} stummgeschaltet [scarlet]. Entstummung in {1};
 
-discord.link=Now go to our discord and write
+discord.link=Gehe jetzt auf unseren Discord und schreibe
 {0}link {1}
-Any channel!
-Don't leave the server in the process!
+in einen beliebigen Kanal!
+Verlasse währenddessen nicht den Server!
 [blue]Discord:[] {2};
 
-rtv.error.voted=[scarlet]You have already voted. Sit down. ;
-rtv.playervoted=[stat]RTV: Player {0} [stat] voted to skip the card! Voices: {1} [lightgray](/rtv y/n);
-rtv.playerleft=[scarlet]RTV: Player {0} [stat] is up! Voices: {1} [lightgray](/rtv y/n);
+rtv.error.voted=[scarlet]Du hast bereits abgestimmt. Setz dich.;
+rtv.playervoted=[stat]RTV: Spieler {0} [stat]hat für das Überspringen der Karte gestimmt! Stimmen: {1} [lightgray](/rtv y/n);
+rtv.playerleft=[scarlet]RTV: Spieler {0} [stat]hat den Server verlassen! Stimmen: {1} [lightgray](/rtv y/n);
 
-rtv.failed=Voting failed. Not enough votes to pass the card. Voices {0}/{1};
-rtv.votey=[stat] The player {0} [stat] voted [green] for [stat] missing the card! Voices: {1}/{2} [lightgray](/rtv y/n);
-rtv.voten=[stat]The player {0} [stat] voted [scarlet] against [stat] missing the card! Voices: {1}/{2} [lightgray](/rtv y/n);
-rtv.voteymap=[stat]The player {0} [stat] voted [green] for [stat] missing the card! Voices: {1}/{2} Map: {3} [lightgray](/rtv y/n);
-rtv.votenmap=[stat]The player {0} [stat] voted [scarlet] against [stat] missing the card! Voices: {1}/{2} Map: {3} [lightgray](/rtv y/n);
+rtv.failed=Abstimmung fehlgeschlagen. Nicht genügend Stimmen zum Überspringen der Karte. Stimmen {0}/{1};
+rtv.votey=[stat]Spieler {0} [stat]hat [green]für[stat] das Überspringen der Karte gestimmt! Stimmen: {1}/{2} [lightgray](/rtv y/n);
+rtv.voten=[stat]Spieler {0} [stat]hat [scarlet]gegen[stat] das Überspringen der Karte gestimmt! Stimmen: {1}/{2} [lightgray](/rtv y/n);
+rtv.voteymap=[stat]Spieler {0} [stat]hat [green]für[stat] das Überspringen der Karte gestimmt! Stimmen: {1}/{2} Karte: {3} [lightgray](/rtv y/n);
+rtv.votenmap=[stat]Spieler {0} [stat]hat [scarlet]gegen[stat] das Überspringen der Karte gestimmt! Stimmen: {1}/{2} Karte: {3} [lightgray](/rtv y/n);
 
-rtv.pass=[green]Vote for skipping the card successfully!
+rtv.pass=[green]Die Kartenüberspring-Abstimmung war erfolgreich!;
 
-votekick.disabled=[scarlet] Voting for kick is off here!
-votekick.fewplayers=[scarlet] It takes at least 3 players to start voting for a kick!
-votekick.localplayer=[scarlet]Just kick the player yourself if you're a host. ;
-votekick.alreadystarted=[scarlet] Voting has already begun!
-votekick.noreason=[scarlet] You need a reason to kick a player. Add a reason after the player's nickname. ;
-votekick.kickyouself=[scarlet]You can't kick yourself!
-votekick.admin=[scarlet] Did you really think you could kick the admin?
-votekick.localplayer2=[scarlet]A local player cannot be kicked!
-votekick.onlyyourteam=[scarlet]Only players on your team can be kicked!;
-votekick.wait=[scarlet]You must wait {0} minutes before voting again!
-votekick.start=[lightgray] Reason:[orange]{0}[lightgray]. ;
-votekick.playernotfound=[scarlet]The [orange] '{0}' [scarlet not found!]
+votekick.disabled=[scarlet]Kick-Abstimmungen sind hier deaktiviert!;
+votekick.fewplayers=[scarlet]Mindestens 3 Spieler werden benötigt, um eine Kick-Abstimmung zu starten!;
+votekick.localplayer=[scarlet]Kicke den Spieler einfach selbst, wenn du der Host bist.;
+votekick.alreadystarted=[scarlet]Eine Abstimmung läuft bereits!;
+votekick.noreason=[scarlet]Du musst einen Grund angeben. Füge ihn nach dem Spielernamen hinzu.;
+votekick.kickyouself=[scarlet]Du kannst dich nicht selbst kicken!;
+votekick.admin=[scarlet]Hast du wirklich gedacht, du könntest einen Admin kicken?;
+votekick.localplayer2=[scarlet]Lokale Spieler können nicht gekickt werden!;
+votekick.onlyyourteam=[scarlet]Nur Spieler aus deinem Team können gekickt werden!;
+votekick.wait=[scarlet]Du musst {0} Minuten warten, bevor du erneut eine Abstimmung starten kannst!;
+votekick.start=[lightgray]Grund:[orange] {0}[lightgray].;
+votekick.playernotfound=[scarlet]Spieler [orange] '{0}' [scarlet] nicht gefunden!;
 
-votekick.failed=[lightgray] Voting failed. Not enough voices to shout [orange] {0} [lightgray]
-votekick.voted=[lightgray]{0}[lightgray] voted for kick[orange]{1}[lightgray].[accent] ({2}/{3})
-[lightgray] Write [orange] /vote <y n="">[] to vote. ;
-votekick.passed=[orange] Voting successfully.[scarlet]{0}[orange] will be banned from the server for {1} minutes. ;
+votekick.failed=[lightgray]Abstimmung fehlgeschlagen. Nicht genügend Stimmen, um[orange] {0}[lightgray] zu kicken;
+votekick.voted=[lightgray]{0}[lightgray] hat für den Kick von[orange] {1}[lightgray] gestimmt.[accent] ({2}/{3})
+[lightgray]Schreibe[orange] /vote <y/n>[] um abzustimmen.;
+votekick.passed=[orange]Abstimmung erfolgreich.[scarlet] {0}[orange] wird für {1} Minuten vom Server gebannt.;
 
-vote.novoteinprogress=[scarlet]There is no one to vote now! Start?
-vote.canceledbyadmin=[lightgray] Voting cancelled by admin[orange]{0}[lightgray]. ;
-vote.local=[scalret] Local players cannot vote! Just kick it yourself! ;
-vote.alreadyvoted=[scarlet]You've already voted {0} Sit down.
-vote.targetisplayer=[scarlet] You can't vote for yourself!
-vote.otherteam=[scarlet] You can't vote for other teams!
-vote.unknownvote=[scarlet]Choose between 'y' (yes) or 'n' (no). ;
+vote.novoteinprogress=[scarlet]Momentan gibt es keine laufende Abstimmung!;
+vote.canceledbyadmin=[lightgray]Abstimmung von Admin[orange] {0}[lightgray] abgebrochen.;
+vote.local=[scarlet]Lokale Spieler können nicht abstimmen! Kicke ihn einfach selbst!;
+vote.alreadyvoted=[scarlet]Du hast bereits {0} abgestimmt. Setz dich.;
+vote.targetisplayer=[scarlet]Du kannst nicht für dich selbst abstimmen!;
+vote.otherteam=[scarlet]Du kannst nicht für andere Teams abstimmen!;
+vote.unknownvote=[scarlet]Wähle zwischen 'y' (ja) oder 'n' (nein).;
 
-Commands. nodesc=Description missing. ;
-commands.unknownpage=[scarlet]Unknown page!
-commands.didyoumean=[scarlet]Unknown command. Did you mean [lightgray] [0]?
-commands.unknown=[scarlet]Unknown team. See [lightgray]/help[scarlet]. ;
-commands.manyargs=[scarlet] Too many arguments. Use:[lightgray]{0}[gray]{1};
-commands.fewargs=[scarlet] Too few arguments. Use:[lightgray]{0}[gray]{1};
+commands.nodesc=Keine Beschreibung vorhanden.;
+commands.unknownpage=[scarlet]Unbekannte Seite!;
+commands.didyoumean=[scarlet]Unbekannter Befehl. Meintest du vielleicht [lightgray]"{0}"[]?;
+commands.unknown=[scarlet]Unbekannter Befehl. Siehe [lightgray]/help[scarlet].;
+commands.manyargs=[scarlet]Zu viele Argumente. Verwendung:[lightgray] {0}[gray] {1};
+commands.fewargs=[scarlet]Zu wenige Argumente. Verwendung:[lightgray] {0}[gray] {1};
 
-commands.t.description: Send a message to your team. ;
-commands.a.description: Send a message to administrators only. ;
-commands.votekick.description = Vote for a player's kick with a reason. ;
-commands.sync.description = Re-synchronization of the state of the world ;
-commands.help.description=Show a list of all commands. ;
-commands.rtv.description = Vote to skip the card. ;
-commands.vote.description = Vote for the player's current kick. Admins may cancel the vote with a c;
-commands.ban.description=Ban the player
-commands.team.description=Change your command
+commands.t.description=Nachricht nur an dein Team senden.;
+commands.a.description=Nachricht nur an Administratoren senden.;
+commands.votekick.description=Für den Kick eines Spielers mit Begründung abstimmen.;
+commands.sync.description=Weltstatus erneut synchronisieren.;
+commands.help.description=Liste aller Befehle anzeigen.;
+commands.rtv.description=Für das Überspringen der Karte abstimmen.;
+commands.vote.description=Für den aktuellen Kick abstimmen. Admins können mit 'c' abbrechen.;
+commands.ban.description=Spieler bannen.;
+commands.team.description=Dein Team wechseln.;
 
-commands.slot.description=LETS GO GAMBLING!
-commands.shop. Description=You can buy units here!
-commands.hidden.description=Hide your administrator rights from others
-commands.link.description=Link your discord account to a gaming account
-commands.artv.description=Finish the game
-commands.discord.descripton=Receive a link to our Discord
-commands.stats. Description=View your game statistics on the server
-commands.economy. description=View the guide to the economy;
+units=Einheiten;
+items=Gegenstände;
+other=Sonstiges;
 
-rtv.error.hexed=You cannot use this command on hexed!
-commands.vnw.description=Start voting to skip the wave
-commands.runwave.description=Run a number of waves
-commands.name.description=Change your nickname on the server. Leave it empty to bring back the old nickname. ;
-commands.hub.description = Connect to the server hub
-commands.testmenus.description=Check the menu
-commands.testtextmenus. Description=Test text menus;
-commands.maps.description=View server maps
-commands.vanish.description=Hide yourself from other people's eyes
-commands.pay.description=Send money to the player
-commands.thelp.description=Text representation/help commands
-commands.test.description=Test the plugin
-commands.history. Description = View the history of the blocks;
-commands.discord.description=Receive a link to the discord
-commands.captured. Description=Look at the number of hexes you have captured.
-commands.hexstatus.description=View the current hex status
+crawler.events.victory=[green]Ihr habt in {0} Sekunden gewonnen.\n[scarlet]Und jetzt stellt euch diesem.;
+crawler.events.boss=[scarlet]Vernichtung ist unvermeidlich. Ihr werdet nicht überleben. Es ist bereits nahe.;
+crawler.events.why-alive=[red]Warum habt ihr noch nicht verloren?;
+crawler.events.what-so-long=[red]Was lässt euch so verzweifelt kämpfen?;
+crawler.events.good-game=[red]Ihr lebt noch... beeindruckend...;
 
-units=Units;
-items=Objects;
-other=Different;
+crawler.events.heal=[#{0}]Einheiten-HP wiederhergestellt.;
+crawler.events.aid=[green]Verstärkung ist unterwegs.;
+crawler.events.gameover.lose=[red]Ihr habt verloren.;
+crawler.events.gameover.win=[green]Sieg.;
 
-crawler.events.victory=[green]You won in {0} seconds.\n[scarlet] Now, fight it. ;
-crawler.events.boss=[scarlet]Annihilation is inevitable. You can't survive. It's here. ;
-crawler.events.why-alive=[red]Why haven't you lost yet?
-crawler.events.what-so-long=[red]What makes you fight so desperately?
-crawler.events.good-game=[red]You're still alive. Impressive... ;
+crawler.events.first-wave=[red]Die erste Welle beginnt in {0} Sekunden.;
+crawler.events.wave=[red]Die nächste Welle beginnt in {0} Sekunden.;
+crawler.events.next-wave=[yellow]Die nächste Welle beginnt in {0} Sekunden.;
 
-crawler.events.heal=[#{0] Unit strength restored. ;
-crawler.events.aid=[green] Reinforcement is on the way. ;
-crawler.events.gameover.lose=[red]You were defeated. ;
-crawler.events.gameover.win=[green]Winning. ;
+crawler.events.tip.info=[cyan]Für nützliche Infos zum Upgrade der Einheiten benutze /info.;
+crawler.events.tip.upgrades=[cyan]Um alle verfügbaren Upgrade-Einheiten zu sehen, benutze /upgrades.;
+crawler.events.join.welcome=[cyan]Willkommen in der Crawler-Arena. Nutze /info für hilfreiche Informationen zu diesem Modus.;
+crawler.events.join.already-played=[cyan]Du hast anscheinend bereits in diesem Match gespielt. Dein Geld und deine Einheit wurden wiederhergestellt.;
 
-crawler.events.first-wave=[red] The first wave will occur in {0} seconds. ;
-crawler.events.wave=[red] Next wave in {0} seconds. ;
-crawler.events.next-wave=[yellow]The next wave in {0} seconds. ;
+crawler.commands.upgrade.use-unit=[scarlet]Der Befehl wurde umbenannt, benutze stattdessen [orange]/unit <name>[]!;
+crawler.commands.upgrade.unit-not-found=[scarlet]Einheit nicht gefunden! Benutze [orange]/upgrades[], um die Liste verfügbarer Einheiten zu sehen!;
+crawler.commands.upgrade.already=[scarlet]Zusätzliche Einheit gekauft.;
+crawler.commands.upgrade.success=[green]Einheit erfolgreich verbessert!;
+crawler.commands.upgrade.not-enough-money=[scarlet]Nicht genug Geld für diese Einheit!;
+crawler.commands.upgrade.too-many-units=[scarlet]Zu viele Einheiten dieses Typs auf der Karte.;
 
-crawler.events.tip.info=[cyan] For useful information on unit pumping, write /info. ;
-crawler.events.tip.upgrades=[cyan] To find out all the units available for pumping, write /upgrades. ;
-crawler.events.join.welcome=[cyan]Welcome to the Cravler Arena. Use /info to get useful information about this mode. ;
-crawler.events. join.already-played=[cyan] You seem to have played this game before. Your balance and unit have been restored. ;
+crawler.commands.upgrades.header=[accent]Liste der verfügbaren Upgrade-Einheiten:\n[];
+crawler.commands.upgrades.page=[accent][Seite {0}/{1}];
 
+crawler.commands.give.player-not-found=[scarlet]Spieler nicht gefunden! Vollständiger Name ist nicht erforderlich.;
+crawler.commands.give.success=[yellow]{0} [green]Münzen wurden an {1} übertragen.;
+crawler.commands.give.money-recieved=[yellow]{0} [green]Münzen von {1} erhalten.;
+crawler.commands.give.not-enough-money=[scarlet]Nicht genug Geld.;
 
-crawler.commands.upgrade.use-unit=[scarlet]The team has been renamed, use [orange]/unit <name>[]!;
-crawler.commands.upgrade.unit-not-found=[scarlet]Unit found! Use [orange]/upgrades[] to see the list of available units!
-crawler.commands.upgrade.already=[scarlet]Extra unit purchased. ;
-crawler.commands.upgrade.success=[green]The unit has been successfully improved!
-crawler.commands.upgrade.not-enough-money=[scarlet]There are not enough funds on the balance sheet to purchase this unit!
-crawler.commands.upgrade.too-many-units=[scarlet] There are too many units of this type on the map. ;
+crawler.exceptions.invalid-amount=[scarlet]Ungültige Menge.;
 
-crawler.commands.upgrades.header=[accent]List of available pumping units:\n[]
-crawler.commands.upgrades.page=[accent][Page {0}/{1}]
+crawler.commands.info=[accent]Nach jeder Welle erhalten alle Spieler die gleiche Menge Münzen.
+Münzen können für Einheiten-Upgrades verwendet werden.
+Dein Kontostand wird oben angezeigt.
+Befehle akzeptieren Einheitentypen auf Englisch.
+/upgrades - alle verfügbaren Einheiten anzeigen.
+/cost <typ> - Kosten einer Einheit anzeigen. Name muss nicht vollständig sein.
+/unit <typ> [anzahl] - Einheit upgraden oder kaufen.
+/give <anzahl> <spieler> - Geld an andere Spieler geben.
+Upgrades nach dem Tod respawnen dich.
+Ein Upgrade zu deiner aktuellen Einheit kauft zusätzliche Einheiten.
+Überlebe 25 Wellen und besiege den Boss, um zu gewinnen.;
 
-crawler.commands.give.player-not-found=[scarlet]No player found! Please note that you do not need to write a full name. ;
-crawler.commands.give.success=[yellow]{0} [green] coin transmitted {1}[green]. ;
-crawler.commands.give.money-recieved=[yellow]{0} [green] coin derived from {1}[green]. ;
-crawler.commands.give.not-enough-money=[scarlet] There are not enough funds on the balance sheet. ;
+crawler.labels.money=[gold]Kontostand: {0};
 
-crawler.exceptions.invalid-amount=[scarlet]Inappropriate amount. ;
+commands.unit.description=Upgrade zu einer anderen Einheit. Mit Anzahl werden zusätzliche Einheiten gekauft, die mit dir kämpfen.;
+commands.give.description=Geld an andere Spieler geben;
+commands.info.description=Informationen zum Crawler-Arena-Modus anzeigen;
+commands.upgrades.description=Verfügbare Upgrade-Einheiten anzeigen;
+commands.cost.description=Kosten einer Einheit anzeigen;
+commands.slot.description=LET’S GO GAMBLING!;
+commands.shop.description=Hier kannst du Einheiten kaufen!;
+commands.hidden.description=Deine Administratorrechte vor anderen verstecken;
+commands.link.description=Dein Discord-Konto mit dem Spiel verknüpfen;
+commands.artv.description=Das Spiel beenden;
+commands.discord.descripton=Einen Link zu unserem Discord erhalten;
+commands.stats.description=Deine Spielstatistiken auf dem Server anzeigen;
+commands.economy.description=Einen Leitfaden zur Wirtschaft anzeigen;
 
-crawler.commands.info=[accent] After each wave, all players are awarded the same number of coins.
-Coins can be spent on pumping units.
-Your balance is displayed at the top of the screen.
-Teams accept unit types in English.
-/upgrades - see all available units and their cost.
-/cost <type> - display the unit value. You don’t have to write the full name.
-/unit <type> [quantity] - improve your unit for coins. You can’t write your full name here either. If the number is specified, new units will be purchased separately.
-/give <quantity> <name> - give money to another player.
-Pumping after death revives you. \
-Upgrade to its own unit buys an additional unit (not reborn).
-Hold on to 25 waves and kill your boss to win. ;
-
-crawler.labels.money=[gold]Balance:{0};
-
-commands.unit.description = Upgrade to another unit. If you specify the number, you will instead buy units that will fight with you.;
-commands.give. Description=Transfer money to another player;
-commands.info.description=Show information about Crawler Arena mode;
-commands.upgrades.description=Show units you can upgrade to;
-commands.cost.description=Know the cost of a unit;
+rtv.error.hexed=Du kannst diesen Befehl auf Hexed nicht verwenden!;
+commands.vnw.description=Eine Abstimmung zum Überspringen der Welle starten;
+commands.runwave.description=Eine bestimmte Anzahl von Wellen starten;
+commands.name.description=Deinen Nicknamen auf dem Server ändern. Leer lassen, um den alten Nicknamen wiederherzustellen.;
+commands.hub.description=Mit dem Server-Hub verbinden;
+commands.testmenus.description=Menü-Funktionalität testen;
+commands.testtextmenus.description=Textmenüs testen;
+commands.maps.description=Serverkarten anzeigen;
+commands.vanish.description=Verstecke dich vor anderen Spielern;
+commands.pay.description=Einem Spieler Geld senden;
+commands.thelp.description=Textdarstellung des /help-Befehls;
+commands.test.description=Plugin testen;
+commands.history.description=Blockhistorie anzeigen;
+commands.discord.description=Discord-Link erhalten;
+commands.captured.description=Anzahl der von dir eroberten Hexe anzeigen;
+commands.hexstatus.description=Status des aktuellen Hexes anzeigen;
