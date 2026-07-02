@@ -222,3 +222,7 @@ commands.give.description=Dar dinheiro a outro jogador;
 commands.info.description=Mostrar informações sobre o modo Crawler Arena;
 commands.upgrades.description=Mostrar unidades para as quais você pode evoluir;
 commands.cost.description=Consultar o custo de uma unidade;
+
+antivpn=[red]Você foi detectado pelo [scarlet]AntiVPN!
+[white]Tente desativar sua VPN/Proxy e entrar novamente ou vincular seu Discord usando o comando /link.
+Nosso [blue]Discord[]: {0};

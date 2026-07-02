@@ -222,3 +222,7 @@ commands.give.description=向其他玩家赠送金币;
 commands.info.description=显示爬行者竞技场模式的信息;
 commands.upgrades.description=显示可升级的单位;
 commands.cost.description=查询单位价格;
+
+antivpn=[red]您已被 [scarlet]AntiVPN 检测到！
+[white]请尝试关闭您的 VPN/代理并重新加入，或使用 /link 命令绑定您的 Discord。
+我们的 [blue]Discord[]: {0};

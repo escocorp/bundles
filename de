@@ -221,3 +221,7 @@ commands.history.description=Blockhistorie anzeigen;
 commands.discord.description=Discord-Link erhalten;
 commands.captured.description=Anzahl der von dir eroberten Hexe anzeigen;
 commands.hexstatus.description=Status des aktuellen Hexes anzeigen;
+
+antivpn=[red]Du wurdest von [scarlet]AntiVPN erkannt!
+[white]Versuche, dein VPN/Proxy zu deaktivieren und erneut beizutreten, oder verknüpfe deinen Discord mit dem Befehl /link.
+Unser [blue]Discord[]: {0};

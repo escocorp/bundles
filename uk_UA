@@ -223,3 +223,7 @@ commands.give.description=Передати гроші іншому гравцю;
 commands.info.description=Показати інформацію про режим Crawler Arena;
 commands.upgrades.description=Показати юніти, до яких можна покращитися;
 commands.cost.description=Дізнатися вартість юніта;
+
+antivpn=[red]Вас було виявлено [scarlet]AntiVPN!
+[white]Спробуйте вимкнути ваш VPN/Proxy і зайти знову або прив’язати свій Discord за допомогою команди /link.
+Наш [blue]Discord[]: {0};
