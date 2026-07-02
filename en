@@ -1,3 +1,5 @@
+attem83=Dont use this;
+
 vnw.votedy=[stat]Player {0} [stat]voted [green]FOR[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
 vnw.votedn=[stat]Player {0} [stat]voted [red]AGAINST[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
 vnw.pass=[stat]The vote to skip the wave has been accepted!;
@@ -215,8 +217,8 @@ Survive 25 waves and kill the boss to win.;
 
 crawler.labels.money=[gold]Balance: {0};
 
-commands.unit.description=Покращення до іншого юніта. Якщо вказати кількість, замість цього купуються юніти, що будуть битися разом із вами;
-commands.give.description=Передати гроші іншому гравцю;
-commands.info.description=Показати інформацію про режим Crawler Arena;
-commands.upgrades.description=Показати юніти, до яких можна покращитися;
-commands.cost.description=Дізнатися вартість юніта;
+commands.unit.description=Upgrade to another unit. If a quantity is specified, units are purchased instead to fight alongside you;
+commands.give.description=Transfer money to another player;
+commands.info.description=Show information about the Crawler Arena mode;
+commands.upgrades.description=Show units you can upgrade to;
+commands.cost.description=Find out the cost of a unit;

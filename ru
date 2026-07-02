@@ -1,3 +1,5 @@
+attem83=Не используйте это;
+
 vnw.votedy=[stat]Игрок {0} [stat]проголосовал [green]ЗА[stat] пропуск волны! {1}/{2} [lightgray](/vnw y/n);
 vnw.votedn=[stat]Игрок {0} [stat]проголосовал [red]ПРОТИВ[stat] пропуска волны! {1}/{2} [lightgray](/vnw y/n);
 vnw.pass=[stat]Голосование за пропуск волны принято!;
