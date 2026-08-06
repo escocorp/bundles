@@ -229,3 +229,12 @@ antivpn=[red]您已被 [scarlet]AntiVPN 检测到！
 
 discord.verifyusid={0} 点击下方按钮以确认更改 USID！;
 discord.verifyusid.label=更改 USID.;
+
+discord.link.selecttype=请选择最方便您的方式。;
+discord.link.uri=链接
+
+[lightgray]打开链接并授权机器人；
+
+discord.link.text=文本
+
+[lightgray]在 Discord 中发送带有验证码的命令。;

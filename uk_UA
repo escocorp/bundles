@@ -230,3 +230,12 @@ antivpn=[red]Вас було виявлено [scarlet]AntiVPN!
 
 discord.verifyusid={0} Натисніть кнопку нижче, щоб підтвердити зміну USID!;
 discord.verifyusid.label=Змінити USID.;
+
+discord.link.selecttype=Виберіть найзручніший для вас спосіб.;
+discord.link.uri=Посилання
+
+[lightgray]Перейдіть за посиланням і авторизуйте бота;
+
+discord.link.text=Текст
+
+[lightgray]Напишіть команду з кодом в Discord.;

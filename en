@@ -229,3 +229,12 @@ Our [blue]Discord[]: {0};
 
 discord.verifyusid={0} Click the button below to confirm the USID change!;
 discord.verifyusid.label=Change USID.;
+
+discord.link.selecttype=Choose the method that is most convenient for you.;
+discord.link.uri=Link
+
+[lightgray]Open the link and authorize the bot;
+
+discord.link.text=Text
+
+[lightgray]Send a command with the code in Discord.;
