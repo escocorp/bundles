@@ -226,3 +226,6 @@ commands.cost.description=Consultar o custo de uma unidade;
 antivpn=[red]Você foi detectado pelo [scarlet]AntiVPN!
 [white]Tente desativar sua VPN/Proxy e entrar novamente ou vincular seu Discord usando o comando /link.
 Nosso [blue]Discord[]: {0};
+
+discord.verifyusid={0} Clique no botão abaixo para confirmar a alteração do USID!;
+discord.verifyusid.label=Alterar USID.;

@@ -226,3 +226,6 @@ commands.cost.description=查询单位价格;
 antivpn=[red]您已被 [scarlet]AntiVPN 检测到！
 [white]请尝试关闭您的 VPN/代理并重新加入，或使用 /link 命令绑定您的 Discord。
 我们的 [blue]Discord[]: {0};
+
+discord.verifyusid={0} 点击下方按钮以确认更改 USID！;
+discord.verifyusid.label=更改 USID.;

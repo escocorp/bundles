@@ -225,3 +225,6 @@ commands.hexstatus.description=Status des aktuellen Hexes anzeigen;
 antivpn=[red]Du wurdest von [scarlet]AntiVPN erkannt!
 [white]Versuche, dein VPN/Proxy zu deaktivieren und erneut beizutreten, oder verknüpfe deinen Discord mit dem Befehl /link.
 Unser [blue]Discord[]: {0};
+
+discord.verifyusid={0} Klicken Sie auf die Schaltfläche unten, um die Änderung der USID zu bestätigen!;
+discord.verifyusid.label=USID ändern.;

@@ -226,3 +226,6 @@ commands.cost.description=Find out the cost of a unit;
 antivpn=[red]You were detected by [scarlet]AntiVPN!
 [white]Try disabling your VPN/Proxy and rejoin, or link your Discord using the /link command.
 Our [blue]Discord[]: {0};
+
+discord.verifyusid={0} Click the button below to confirm the USID change!;
+discord.verifyusid.label=Change USID.;

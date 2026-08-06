@@ -229,3 +229,6 @@ commands.cost.description=Узнать стоимость юнита;
 antivpn=[red]Вы были замечены [scarlet]AntiVPN!
 [white]Попробуйте отключить ваш VPN/Proxy и перезайти или же привязать ваш дискорд используя команду /link.
 Наш [blue]Discord[]: {0};
+
+discord.verifyusid={0} Нажмите на кнопку ниже чтобы подтвердить изменение usid!;
+discord.verifyusid.label=Изменить usid.;
