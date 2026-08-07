@@ -233,8 +233,86 @@ discord.verifyusid.label=更改 USID.;
 discord.link.selecttype=请选择最方便您的方式。;
 discord.link.uri=链接
 
-[lightgray]打开链接并授权机器人；
+[lightgray]打开链接并授权机器人;
 
 discord.link.text=文本
 
 [lightgray]在 Discord 中发送带有验证码的命令。;
+
+commands.noplayerdata=没有玩家数据！;
+menu.settings.title=设置;
+menu.settings.message=点击以更改设置;
+menu.maps.title=地图;
+menu.maps.item={0}
+[lightgray]{1}x{2};
+commands.vanish.on=已隐藏！;
+commands.vanish.off=已可见！;
+errors.playernotfound=[scarlet]找不到该名称的玩家！;
+errors.unknown=[scarlet]未知错误;
+args.amountpositive=[scarlet]数量必须大于 0！;
+menu.pay.received=[green]玩家 {0} [green]向你转了 $[white]{1} [green](手续费 $[white]{2}[green]);
+menu.pay.sent=[green]你向 {0} [green]转了 $[white]{1} [green](手续费 $[white]{2}[green]);
+commands.sync.cooldown=[scarlet]每 5 秒只能使用一次 /sync。;
+commands.pages.header=[orange]-- 命令页 {0}/{1} --;
+menu.help.title=帮助;
+stats.header=[stat]统计：;
+stats.blocksbuild=已建造方块：{0};
+stats.blocksbroken=已破坏方块：{0};
+stats.wavessurvived=已存活波次：{0};
+stats.balance=余额：[green]$[]{0};
+stats.playtime=游戏时长：{0};
+commands.ban.unknowntime=[scarlet]未知时间，请使用 d w m y 或 perm！;
+commands.ban.success=[green]玩家已被封禁！;
+commands.ban.fail=[scarlet]无法封禁该玩家;
+commands.history.disabled=[scarlet]已禁用;
+commands.history.enabled=[green]已启用！点击方块查看历史。;
+commands.link.alreadylinked=账户已绑定！;
+commands.link.error=[scarlet]出错了！请稍后重试或选择其他绑定方式。;
+commands.hidden.ok=[green]好的！;
+commands.hidden.unknownbool=[scarlet]未知布尔值！请使用 y/yes/t 或 n/no/f。;
+commands.say.prefix=[scarlet][服务器]：[white] {0};
+commands.votekick.players=[orange]可踢出的玩家：;
+patches.mapchange=[stat]是时候更换地图了！请保存你的建筑。;
+replays.done=完成！;
+kick.noname=你的名字不能为空！;
+kick.createdb=[scarlet]无法创建玩家！服务器数据库可能不可用;
+messages.credsdiffer=你的认证凭据不同。请在 Discord 上联系我们。如果你拥有管理员权限，在更新认证凭据之前这些权限将不会生效。;
+messages.permissions=你的权限：{0};
+kick.createfail=[scarlet]无法创建玩家，请重新加入;
+kick.antigrief=[scarlet]自动封禁：可能是破坏者;
+menu.invalid=[scarlet]无效菜单。;
+menu.closed=[red]已关闭。;
+menu.invalidoption=[scarlet]无效选项。;
+menu.shop.balance=余额：[green]$[white]{0};
+menu.shop.cost={0}
+[green]$[lightgray]{1};
+menu.shop.count.title=选择数量;
+menu.shop.count.message=请选择单位数量。;
+menu.info.title=信息;
+menu.trace.name=[green]名称;
+menu.trace.id=ID;
+menu.trace.locale=语言;
+menu.trace.ip=[green]IP;
+menu.trace.mobile=移动端;
+menu.trace.client=[green]自定义客户端;
+menu.trace.joined=加入次数;
+menu.trace.kicked=被踢次数;
+menu.trace.ban=[scarlet]封禁;
+menu.trace.modstats=[white]SchemShiz：{0}
+[]Foo''s：{1}
+[]AgzamMod：{2};
+menu.ban.noreason=[scarlet]原因不能为空！;
+menu.ban.notime=[scarlet]时间为空！1h 1d 1m 1y perm 等。;
+menu.ban.unknowntime=[scarlet]未知时间！请使用 1h 1d 1m 1y perm 等。;
+menu.ban.success=[green]玩家已被封禁。;
+menu.ban.fail=[scarlet]无法封禁该玩家。;
+menu.ban.reason.title=原因;
+menu.ban.reason.message=在此填写原因;
+menu.ban.time.title=封禁时长;
+menu.ban.time.message=在此填写时长，例如 1d;
+menu.page=[gray]第 {0}/{1} 页;
+menu.prev=[lightgray]<-;
+menu.cancel=[red]取消;
+menu.next=[lightgray]->;
+menu.cancelled=[red]已取消。;
+textmenu.invalid=[scarlet]未知输入！;
