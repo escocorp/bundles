@@ -1,209 +1,86 @@
-vnw.votedy=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
-vnw.votedn=[stat]玩家 {0} [stat]投票[red]反对[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
-vnw.pass=[stat]跳过波次投票已通过！;
-vnw.failed=[stat]跳过波次投票未通过！;
+announce.admin-recruitment=[stat]服务器正在招募管理员，也许我们正需要你！
+[lightgray]{0};
 
-infomessage.economyguide=如何变得富有指南。
+announce.ban=[scarlet]玩家 [lightgray][{0}] {1} [scarlet]因 [lightgray]{3} [scarlet]被封禁 {2};
+
+announce.discord=[stat]欢迎加入我们的 [blue]Discord！
+[lightgray]{0};
+
+announce.map-change=[stat]是时候更换地图了！请保存你的建筑。;
+
+announce.reports=[stat]如果你发现违规行为，可以在我们的 [blue]Discord
+[lightgray]{0}
+或发送邮件至 contact@larzed.icu 举报;
+
+command.a.description=仅向管理员发送消息。;
+
+command.argument.amount-positive=[scarlet]数量必须大于 0！;
+
+command.argument.must-be-less-than=参数 {0} 必须小于 {1};
+
+command.argument.must-be-number=参数 {0} 必须是数字！;
+
+command.artv.description=结束游戏;
+
+command.ban.description=封禁玩家;
+
+command.ban.fail=[scarlet]无法封禁该玩家;
+
+command.ban.success=[green]玩家已被封禁！;
+
+command.ban.unknown-time=[scarlet]未知时间，请使用 d w m y 或 perm！;
+
+command.captured.description=查看您已占领的六边形数量;
+
+command.cost.description=查询单位价格;
+
+command.did-you-mean=[scarlet]未知命令。你是不是想输入 [lightgray]"{0}"[]？;
+
+command.disabled-in-hexed=您不能在 Hexed 中使用此命令！;
+
+command.discord.description=获取 Discord 邀请链接;
+
+command.economy.description=查看经济系统指南;
+
+command.economy.guide=如何变得富有指南。
 每建造50个方块，你会根据游戏模式获得1到3金币。
 每通过一波，你会根据模式获得3到5金币。
 你可以通过 /shop 命令在黑市花费金币购买物品。
 你也可以通过 /slot <赌注> 命令玩老虎机来赚取或花费金币。;
 
-slots.win={0} [yellow]正在转动老虎机！
-[lightgray][{1}] [{2}] [{3}]
-[green]赢得：${4};
+command.few-arguments=[scarlet]参数不足。用法：[lightgray] {0}[gray] {1};
 
-slots.fail={0} [yellow]正在转动老虎机！
-[lightgray][{1}] [{2}] [{3}]
-[red]失败：-${4};
+command.give.description=向其他玩家赠送金币;
 
-slots.smollbet=[scarlet]赌注必须大于 0！;
+command.give.money-received=[yellow]{0} [green]金币已从 {1} 处收到[green].;
 
-menus.slots.win=[green]赢得：${0};
-menus.slots.fail=[red]失败：-${0};
+command.give.not-enough-money=[scarlet]金币不足。;
 
-menu.shop.title=[yellow]黑市;
-menu.shop.unitbuy=[stat]玩家 {0} [stat]购买了 [white]{1}[stat]，花费 [green]$[lightgray]{2};
-menu.shop.healcores=[green]修复核心;
-menu.shop.advertise.healcores=[stat]玩家 {0} [stat]花费 [green]$[lightgray]2500 [stat]修复了所有 [white]{1} [stat]核心;
-menu.shop.nomoney=[scarlet]你的金币不足！;
+command.give.player-not-found=[scarlet]未找到玩家！无需输入完整名称。;
 
-advertise.banned=[scarlet]玩家 [lightgray][{0}] {1} [scarlet]因 [lightgray]{3} [scarlet]被封禁 {2};
-votekick.immune=[scarlet]这个玩家无法被踢出！;
-advertise.admins=[stat]服务器正在招募管理员，也许我们正需要你！
-[lightgray]{0};
-advertise.discord=[stat]欢迎加入我们的 [blue]Discord！
-[lightgray]{0};
-advertise.reports=[stat]如果你发现违规行为，可以在我们的 [blue]Discord
-[lightgray]{0}
-或发送邮件至 contact@larzed.icu 举报;
-votekick.targetleft=[lightgray]投票已通过，玩家已离开服务器！;
+command.give.success=[yellow]{0} [green]金币已转给 {1}[green].;
 
-kick.graylisted=你的 IP 已被列入黑名单！
-如需解除，请前往我们的 Discord 服务器
-{0};
+command.help.description=显示所有命令列表。;
 
-menu.welcome.title=欢迎菜单;
-menu.welcome.message=你好，欢迎来到 EscoCorp。
-这个服务器有点像 404ru，原因如下：
-目前 404 使用的 EscoPlugin 有部分是由我制作的，因此一些功能实现可能会相似。
-简而言之：不要恶意破坏，不要当混蛋，遵循常识，不要太菜，也不要 RP。;
+command.hexstatus.description=查看当前六边形的状态;
 
-menus.dontshow=不再显示;
-menus.close=[red]关闭;
+command.hidden.description=对其他人隐藏你的管理员权限;
 
-args.mustbeint=参数 {0} 必须是数字！;
-args.lessthan=参数 {0} 必须小于 {1};
+command.hidden.ok=[green]好的！;
 
-noperms=[scarlet]你没有权限执行此操作;
-botcheck=[scarlet]请重新连接。;
-unitdespawn=[stat]单位删除时间！;
-logic.antilag=[scarlet]请不要建造卡服机器！;
+command.hidden.unknown-boolean=[scarlet]未知布尔值！请使用 y/yes/t 或 n/no/f。;
 
-messages.join=[{0}] [green]玩家 {1} [green]加入了服务器！;
-messages.leave=[{0}] [red]玩家 {1} [red]离开了服务器！;
+command.history.description=查看方块历史记录;
 
-admin.kicked=[scarlet]你被踢出了服务器，执行者：[white];
-team.changed=[green]你现在属于队伍[white];
-banned=[scarlet]你已被封禁！[white]
-Ban ID: {3}
-原因：{0}
-解封时间：{1}
-如果你不同意该封禁，请尝试申诉！！
-你可以在我们的 Discord 服务器申诉：{2}
-或发送邮件至 contact@larzed.icu;
+command.history.disabled=[scarlet]已禁用;
 
-muted=[scarlet]你因 {0} 被禁言 [scarlet]。解除时间：{1};
+command.history.enabled=[green]已启用！点击方块查看历史。;
 
-discord.link=现在请加入我们的 Discord 并发送
-{0}link {1}
-到任意频道！
-在过程中不要退出服务器！
-[blue]Discord:[] {2};
+command.hub.description=连接到服务器大厅;
 
-rtv.error.voted=[scarlet]你已经投过票了。坐下。;
-rtv.playervoted=[stat]RTV：玩家 {0} [stat]投票跳过地图！票数：{1} [lightgray](/rtv y/n);
-rtv.playerleft=[scarlet]RTV：玩家 {0} [stat]离开了！票数：{1} [lightgray](/rtv y/n);
+command.info.description=显示爬行者竞技场模式的信息;
 
-rtv.failed=投票失败。票数不足，无法跳过地图。票数 {0}/{1};
-rtv.votey=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
-rtv.voten=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
-rtv.voteymap=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
-rtv.votenmap=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
-
-rtv.pass=[green]跳过地图投票成功！;
-
-votekick.disabled=[scarlet]这里已禁用投票踢人！;
-votekick.fewplayers=[scarlet]至少需要 3 名玩家才能发起投票踢人！;
-votekick.localplayer=[scarlet]如果你是主机，直接自己踢掉玩家吧。;
-votekick.alreadystarted=[scarlet]投票已经开始！;
-votekick.noreason=[scarlet]踢人需要理由。请在玩家昵称后添加理由。;
-votekick.kickyouself=[scarlet]你不能踢自己！;
-votekick.admin=[scarlet]你真觉得自己能踢管理员吗？;
-votekick.localplayer2=[scarlet]本地玩家无法被踢出！;
-votekick.onlyyourteam=[scarlet]只能踢出你队伍中的玩家！;
-votekick.wait=[scarlet]你必须等待 {0} 分钟后才能再次发起投票！;
-votekick.start=[lightgray]原因：[orange] {0}[lightgray].;
-votekick.playernotfound=[scarlet]未找到玩家 [orange] '{0}' [scarlet]！;
-
-votekick.failed=[lightgray]投票失败。票数不足，无法踢出[orange] {0}[lightgray];
-votekick.voted=[lightgray]{0}[lightgray] 投票踢出[orange] {1}[lightgray].[accent] ({2}/{3})
-[lightgray]输入[orange] /vote <y/n>[] 进行投票。;
-votekick.passed=[orange]投票成功。[scarlet] {0}[orange] 将被服务器封禁 {1} 分钟。;
-
-vote.novoteinprogress=[scarlet]当前没有进行中的投票！;
-vote.canceledbyadmin=[lightgray]投票被管理员[orange] {0}[lightgray]取消。;
-vote.local=[scalret]本地玩家无法投票！直接自己踢掉他吧！;
-vote.alreadyvoted=[scarlet]你已经投票 {0}。坐下。;
-vote.targetisplayer=[scarlet]你不能给自己投票！;
-vote.otherteam=[scarlet]你不能对其他队伍投票！;
-vote.unknownvote=[scarlet]请选择 'y'（是）或 'n'（否）。;
-
-commands.nodesc=暂无描述。;
-commands.unknownpage=[scarlet]未知页面！;
-commands.didyoumean=[scarlet]未知命令。你是不是想输入 [lightgray]"{0}"[]？;
-commands.unknown=[scarlet]未知命令。请查看 [lightgray]/help[scarlet].;
-commands.manyargs=[scarlet]参数过多。用法：[lightgray] {0}[gray] {1};
-commands.fewargs=[scarlet]参数不足。用法：[lightgray] {0}[gray] {1};
-
-commands.t.description=仅向你的队伍发送消息。;
-commands.a.description=仅向管理员发送消息。;
-commands.votekick.description=发起投票踢出玩家并附带理由。;
-commands.sync.description=重新同步世界状态。;
-commands.help.description=显示所有命令列表。;
-commands.rtv.description=投票跳过地图。;
-commands.vote.description=对当前踢人投票进行投票。管理员可以使用 'c' 取消投票;
-commands.ban.description=封禁玩家;
-commands.team.description=更换你的队伍;
-
-commands.slot.description=LETS GO GAMBLING!;
-commands.shop.description=在这里购买单位！;
-commands.hidden.description=对其他人隐藏你的管理员权限;
-commands.link.description=绑定你的 Discord 账号与游戏账号;
-commands.artv.description=结束游戏;
-commands.discord.descripton=获取我们的 Discord 链接;
-commands.stats.description=查看你在服务器上的游戏统计;
-commands.economy.description=查看经济系统指南;
-
-rtv.error.hexed=您不能在 Hexed 中使用此命令！;
-commands.vnw.description=发起跳过波次的投票;
-commands.runwave.description=启动指定数量的波次;
-commands.name.description=更改您在服务器上的昵称。留空以恢复旧昵称。;
-commands.hub.description=连接到服务器大厅;
-commands.testmenus.description=测试菜单功能;
-commands.testtextmenus.description=测试文本菜单;
-commands.maps.description=查看服务器地图;
-commands.vanish.description=对其他玩家隐藏自己;
-commands.pay.description=向玩家转账;
-commands.thelp.description=/help 命令的文本版;
-commands.test.description=测试插件;
-commands.history.description=查看方块历史记录;
-commands.discord.description=获取 Discord 邀请链接;
-commands.captured.description=查看您已占领的六边形数量;
-commands.hexstatus.description=查看当前六边形的状态;
-
-units=单位;
-items=道具;
-other=其他;
-
-crawler.events.victory=[green]你在 {0} 秒内获胜。\n[scarlet]现在，面对这个敌人。;
-crawler.events.boss=[scarlet]湮灭不可避免。你无法生存。它已经在附近了。;
-crawler.events.why-alive=[red]你为什么还没有失败？;
-crawler.events.what-so-long=[red]是什么让你如此拼命战斗？;
-crawler.events.good-game=[red]你还活着……令人印象深刻……;
-
-crawler.events.heal=[#{0}]单位耐久已恢复。;
-crawler.events.aid=[green]增援正在赶来。;
-crawler.events.gameover.lose=[red]你已被击败。;
-crawler.events.gameover.win=[green]胜利。;
-
-crawler.events.first-wave=[red]第一波将在 {0} 秒后到来。;
-crawler.events.wave=[red]下一波在 {0} 秒后到来。;
-crawler.events.next-wave=[yellow]下一波在 {0} 秒后到来。;
-
-crawler.events.tip.info=[cyan]输入 /info 查看单位升级信息。;
-crawler.events.tip.upgrades=[cyan]输入 /upgrades 查看所有可升级单位。;
-crawler.events.join.welcome=[cyan]欢迎来到爬行者竞技场。使用 /info 获取该模式信息。;
-crawler.events.join.already-played=[cyan]你似乎已经参加过这场比赛。你的金币和单位已恢复。;
-
-crawler.commands.upgrade.use-unit=[scarlet]指令已更名，请使用 [orange]/unit <名称>[]!;
-crawler.commands.upgrade.unit-not-found=[scarlet]未找到单位！使用 [orange]/upgrades[] 查看可用单位!;
-crawler.commands.upgrade.already=[scarlet]已购买额外单位。;
-crawler.commands.upgrade.success=[green]单位升级成功!;
-crawler.commands.upgrade.not-enough-money=[scarlet]金币不足，无法购买该单位!;
-crawler.commands.upgrade.too-many-units=[scarlet]地图上该类型单位过多。;
-
-crawler.commands.upgrades.header=[accent]可升级单位列表:\n[];
-crawler.commands.upgrades.page=[accent][第 {0}/{1} 页];
-
-crawler.commands.give.player-not-found=[scarlet]未找到玩家！无需输入完整名称。;
-crawler.commands.give.success=[yellow]{0} [green]金币已转给 {1}[green].;
-crawler.commands.give.money-recieved=[yellow]{0} [green]金币已从 {1} 处收到[green].;
-crawler.commands.give.not-enough-money=[scarlet]金币不足。;
-
-crawler.exceptions.invalid-amount=[scarlet]数量无效。;
-
-crawler.commands.info=[accent]每一波结束后，所有玩家获得相同数量的金币。
+command.info.message=[accent]每一波结束后，所有玩家获得相同数量的金币。
 金币可用于升级单位。
 你的余额显示在屏幕顶部。
 命令接受英文单位类型。
@@ -215,104 +92,410 @@ crawler.commands.info=[accent]每一波结束后，所有玩家获得相同数�
 升级到自己的单位会额外购买一个单位（不会复活）。
 坚持25波并击败Boss即可获胜。;
 
-crawler.labels.money=[gold]余额: {0};
+command.invalid-amount=[scarlet]数量无效。;
 
-commands.unit.description=升级到另一种单位。指定数量时则会购买与您并肩作战的单位;
-commands.give.description=向其他玩家赠送金币;
-commands.info.description=显示爬行者竞技场模式的信息;
-commands.upgrades.description=显示可升级的单位;
-commands.cost.description=查询单位价格;
+command.link.already-linked=账户已绑定！;
 
-antivpn=[red]您已被 [scarlet]AntiVPN 检测到！
-[white]请尝试关闭您的 VPN/代理并重新加入，或使用 /link 命令绑定您的 Discord。
-我们的 [blue]Discord[]: {0};
+command.link.description=绑定你的 Discord 账号与游戏账号;
 
-discord.verifyusid={0} 点击下方按钮以确认更改 USID！;
-discord.verifyusid.label=更改 USID.;
+command.link.error=[scarlet]出错了！请稍后重试或选择其他绑定方式。;
 
-discord.link.selecttype=请选择最方便您的方式。;
-discord.link.uri=链接
+command.many-arguments=[scarlet]参数过多。用法：[lightgray] {0}[gray] {1};
 
-[lightgray]打开链接并授权机器人;
+command.maps.description=查看服务器地图;
+
+command.name.description=更改您在服务器上的昵称。留空以恢复旧昵称。;
+
+command.no-description=暂无描述。;
+
+command.no-player-data=没有玩家数据！;
+
+command.pages.header=[orange]-- 命令页 {0}/{1} --;
+
+command.pay.description=向玩家转账;
+
+command.pay.received=[green]玩家 {0} [green]向你转了 $[white]{1} [green](手续费 $[white]{2}[green]);
+
+command.pay.sent=[green]你向 {0} [green]转了 $[white]{1} [green](手续费 $[white]{2}[green]);
+
+command.rtv.already-voted=[scarlet]你已经投过票了。坐下。;
+
+command.rtv.description=投票跳过地图。;
+
+command.rtv.failed=投票失败。票数不足，无法跳过地图。票数 {0}/{1};
+
+command.rtv.passed=[green]跳过地图投票成功！;
+
+command.rtv.player-left=[scarlet]RTV：玩家 {0} [stat]离开了！票数：{1} [lightgray](/rtv y/n);
+
+command.rtv.player-voted=[stat]RTV：玩家 {0} [stat]投票跳过地图！票数：{1} [lightgray](/rtv y/n);
+
+command.rtv.voted-no=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
+
+command.rtv.voted-no-map=[stat]玩家 {0} [stat]投票[scarlet]反对[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
+
+command.rtv.voted-yes=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} [lightgray](/rtv y/n);
+
+command.rtv.voted-yes-map=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过地图！票数：{1}/{2} 地图：{3} [lightgray](/rtv y/n);
+
+command.runwave.description=启动指定数量的波次;
+
+command.say.prefix=[scarlet][服务器]：[white] {0};
+
+command.shop.description=在这里购买单位！;
+
+command.slot.description=LETS GO GAMBLING!;
+
+command.stats.balance=余额：[green]$[]{0};
+
+command.stats.blocks-broken=已破坏方块：{0};
+
+command.stats.blocks-built=已建造方块：{0};
+
+command.stats.description=查看你在服务器上的游戏统计;
+
+command.stats.header=[stat]统计：;
+
+command.stats.playtime=游戏时长：{0};
+
+command.stats.waves-survived=已存活波次：{0};
+
+command.sync.cooldown=[scarlet]每 5 秒只能使用一次 /sync。;
+
+command.sync.description=重新同步世界状态。;
+
+command.t.description=仅向你的队伍发送消息。;
+
+command.team.description=更换你的队伍;
+
+command.test.description=测试插件;
+
+command.testmenus.description=测试菜单功能;
+
+command.testtextmenus.description=测试文本菜单;
+
+command.thelp.description=/help 命令的文本版;
+
+command.unit.description=升级到另一种单位。指定数量时则会购买与您并肩作战的单位;
+
+command.unit.not-found=[scarlet]未找到单位！使用 [orange]/upgrades[] 查看可用单位!;
+
+command.unknown=[scarlet]未知命令。请查看 [lightgray]/help[scarlet].;
+
+command.unknown-page=[scarlet]未知页面！;
+
+command.upgrade.extra-unit=[scarlet]已购买额外单位。;
+
+command.upgrade.not-enough-money=[scarlet]金币不足，无法购买该单位!;
+
+command.upgrade.success=[green]单位升级成功!;
+
+command.upgrade.too-many-units=[scarlet]地图上该类型单位过多。;
+
+command.upgrade.use-unit=[scarlet]指令已更名，请使用 [orange]/unit <名称>[]!;
+
+command.upgrades.description=显示可升级的单位;
+
+command.upgrades.header=[accent]可升级单位列表:\n[];
+
+command.upgrades.page=[accent][第 {0}/{1} 页];
+
+command.vanish.description=对其他玩家隐藏自己;
+
+command.vanish.off=已可见！;
+
+command.vanish.on=已隐藏！;
+
+command.vnw.description=发起跳过波次的投票;
+
+command.vnw.failed=[stat]跳过波次投票未通过！;
+
+command.vnw.passed=[stat]跳过波次投票已通过！;
+
+command.vnw.voted-no=[stat]玩家 {0} [stat]投票[red]反对[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
+
+command.vnw.voted-yes=[stat]玩家 {0} [stat]投票[green]赞成[stat]跳过波次！{1}/{2} [lightgray](/vnw y/n);
+
+command.vote.already-voted=[scarlet]你已经投票 {0}。坐下。;
+
+command.vote.canceled-by-admin=[lightgray]投票被管理员[orange] {0}[lightgray]取消。;
+
+command.vote.cannot-vote-self=[scarlet]你不能给自己投票！;
+
+command.vote.description=对当前踢人投票进行投票。管理员可以使用 'c' 取消投票;
+
+command.vote.local-player=[scalret]本地玩家无法投票！直接自己踢掉他吧！;
+
+command.vote.no-vote-in-progress=[scarlet]当前没有进行中的投票！;
+
+command.vote.other-team=[scarlet]你不能对其他队伍投票！;
+
+command.vote.unknown-choice=[scarlet]请选择 'y'（是）或 'n'（否）。;
+
+command.votekick.admin-immune=[scarlet]你真觉得自己能踢管理员吗？;
+
+command.votekick.already-started=[scarlet]投票已经开始！;
+
+command.votekick.cannot-kick-self=[scarlet]你不能踢自己！;
+
+command.votekick.cooldown=[scarlet]你必须等待 {0} 分钟后才能再次发起投票！;
+
+command.votekick.description=发起投票踢出玩家并附带理由。;
+
+command.votekick.disabled=[scarlet]这里已禁用投票踢人！;
+
+command.votekick.failed=[lightgray]投票失败。票数不足，无法踢出[orange] {0}[lightgray];
+
+command.votekick.few-players=[scarlet]至少需要 3 名玩家才能发起投票踢人！;
+
+command.votekick.immune=[scarlet]这个玩家无法被踢出！;
+
+command.votekick.local-player=[scarlet]如果你是主机，直接自己踢掉玩家吧。;
+
+command.votekick.local-player-immune=[scarlet]本地玩家无法被踢出！;
+
+command.votekick.no-reason=[scarlet]踢人需要理由。请在玩家昵称后添加理由。;
+
+command.votekick.passed=[orange]投票成功。[scarlet] {0}[orange] 将被服务器封禁 {1} 分钟。;
+
+command.votekick.player-not-found=[scarlet]未找到玩家 [orange] '{0}' [scarlet]！;
+
+command.votekick.players=[orange]可踢出的玩家：;
+
+command.votekick.same-team-only=[scarlet]只能踢出你队伍中的玩家！;
+
+command.votekick.start=[lightgray]原因：[orange] {0}[lightgray].;
+
+command.votekick.target-left=[lightgray]投票已通过，玩家已离开服务器！;
+
+command.votekick.voted=[lightgray]{0}[lightgray] 投票踢出[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]输入[orange] /vote <y/n>[] 进行投票。;
+
+crawler.event.aid=[green]增援正在赶来。;
+
+crawler.event.boss=[scarlet]湮灭不可避免。你无法生存。它已经在附近了。;
+
+crawler.event.first-wave=[red]第一波将在 {0} 秒后到来。;
+
+crawler.event.game-over.lose=[red]你已被击败。;
+
+crawler.event.game-over.win=[green]胜利。;
+
+crawler.event.good-game=[red]你还活着……令人印象深刻……;
+
+crawler.event.heal=[#{0}]单位耐久已恢复。;
+
+crawler.event.join.already-played=[cyan]你似乎已经参加过这场比赛。你的金币和单位已恢复。;
+
+crawler.event.join.welcome=[cyan]欢迎来到爬行者竞技场。使用 /info 获取该模式信息。;
+
+crawler.event.next-wave=[yellow]下一波在 {0} 秒后到来。;
+
+crawler.event.tip.info=[cyan]输入 /info 查看单位升级信息。;
+
+crawler.event.tip.upgrades=[cyan]输入 /upgrades 查看所有可升级单位。;
+
+crawler.event.victory=[green]你在 {0} 秒内获胜。\n[scarlet]现在，面对这个敌人。;
+
+crawler.event.wave=[red]下一波在 {0} 秒后到来。;
+
+crawler.event.what-so-long=[red]是什么让你如此拼命战斗？;
+
+crawler.event.why-alive=[red]你为什么还没有失败？;
+
+crawler.label.balance=[gold]余额: {0};
+
+discord.link.instructions=现在请加入我们的 Discord 并发送
+{0}link {1}
+到任意频道！
+在过程中不要退出服务器！
+[blue]Discord:[] {2};
+
+discord.link.select-method=请选择最方便您的方式。;
 
 discord.link.text=文本
 
 [lightgray]在 Discord 中发送带有验证码的命令。;
 
-commands.noplayerdata=没有玩家数据！;
-menu.settings.title=设置;
-menu.settings.message=点击以更改设置;
-menu.maps.title=地图;
+discord.link.uri=链接
+
+[lightgray]打开链接并授权机器人;
+
+discord.verify-usid={0} 点击下方按钮以确认更改 USID！;
+
+discord.verify-usid.label=更改 USID.;
+
+error.no-permission=[scarlet]你没有权限执行此操作;
+
+error.player-not-found=[scarlet]找不到该名称的玩家！;
+
+error.unknown=[scarlet]未知错误;
+
+kick.banned=[scarlet]你已被封禁！[white]
+Ban ID: {3}
+原因：{0}
+解封时间：{1}
+如果你不同意该封禁，请尝试申诉！！
+你可以在我们的 Discord 服务器申诉：{2}
+或发送邮件至 contact@larzed.icu;
+
+kick.bot-check=[scarlet]请重新连接。;
+
+kick.by-admin=[scarlet]你被踢出了服务器，执行者：[white];
+
+kick.database-unavailable=[scarlet]无法创建玩家！服务器数据库可能不可用;
+
+kick.graylisted=你的 IP 已被列入黑名单！
+如需解除，请前往我们的 Discord 服务器
+{0};
+
+kick.muted=[scarlet]你因 {0} 被禁言 [scarlet]。解除时间：{1};
+
+kick.name-empty=你的名字不能为空！;
+
+kick.player-create-failed=[scarlet]无法创建玩家，请重新加入;
+
+kick.possible-griefer=[scarlet]自动封禁：可能是破坏者;
+
+kick.vpn-detected=[red]您已被 [scarlet]AntiVPN 检测到！
+[white]请尝试关闭您的 VPN/代理并重新加入，或使用 /link 命令绑定您的 Discord。
+我们的 [blue]Discord[]: {0};
+
+menu.ban.fail=[scarlet]无法封禁该玩家。;
+
+menu.ban.no-reason=[scarlet]原因不能为空！;
+
+menu.ban.no-time=[scarlet]时间为空！1h 1d 1m 1y perm 等。;
+
+menu.ban.reason.message=在此填写原因;
+
+menu.ban.reason.title=原因;
+
+menu.ban.success=[green]玩家已被封禁。;
+
+menu.ban.time.message=在此填写时长，例如 1d;
+
+menu.ban.time.title=封禁时长;
+
+menu.ban.unknown-time=[scarlet]未知时间！请使用 1h 1d 1m 1y perm 等。;
+
+menu.cancel=[red]取消;
+
+menu.cancelled=[red]已取消。;
+
+menu.close=[red]关闭;
+
+menu.closed=[red]已关闭。;
+
+menu.dont-show=不再显示;
+
+menu.help.title=帮助;
+
+menu.info.title=信息;
+
+menu.invalid=[scarlet]无效菜单。;
+
+menu.invalid-input=[scarlet]未知输入！;
+
+menu.invalid-option=[scarlet]无效选项。;
+
 menu.maps.item={0}
 [lightgray]{1}x{2};
-commands.vanish.on=已隐藏！;
-commands.vanish.off=已可见！;
-errors.playernotfound=[scarlet]找不到该名称的玩家！;
-errors.unknown=[scarlet]未知错误;
-args.amountpositive=[scarlet]数量必须大于 0！;
-menu.pay.received=[green]玩家 {0} [green]向你转了 $[white]{1} [green](手续费 $[white]{2}[green]);
-menu.pay.sent=[green]你向 {0} [green]转了 $[white]{1} [green](手续费 $[white]{2}[green]);
-commands.sync.cooldown=[scarlet]每 5 秒只能使用一次 /sync。;
-commands.pages.header=[orange]-- 命令页 {0}/{1} --;
-menu.help.title=帮助;
-stats.header=[stat]统计：;
-stats.blocksbuild=已建造方块：{0};
-stats.blocksbroken=已破坏方块：{0};
-stats.wavessurvived=已存活波次：{0};
-stats.balance=余额：[green]$[]{0};
-stats.playtime=游戏时长：{0};
-commands.ban.unknowntime=[scarlet]未知时间，请使用 d w m y 或 perm！;
-commands.ban.success=[green]玩家已被封禁！;
-commands.ban.fail=[scarlet]无法封禁该玩家;
-commands.history.disabled=[scarlet]已禁用;
-commands.history.enabled=[green]已启用！点击方块查看历史。;
-commands.link.alreadylinked=账户已绑定！;
-commands.link.error=[scarlet]出错了！请稍后重试或选择其他绑定方式。;
-commands.hidden.ok=[green]好的！;
-commands.hidden.unknownbool=[scarlet]未知布尔值！请使用 y/yes/t 或 n/no/f。;
-commands.say.prefix=[scarlet][服务器]：[white] {0};
-commands.votekick.players=[orange]可踢出的玩家：;
-patches.mapchange=[stat]是时候更换地图了！请保存你的建筑。;
-replays.done=完成！;
-kick.noname=你的名字不能为空！;
-kick.createdb=[scarlet]无法创建玩家！服务器数据库可能不可用;
-messages.credsdiffer=你的认证凭据不同。请在 Discord 上联系我们。如果你拥有管理员权限，在更新认证凭据之前这些权限将不会生效。;
-messages.permissions=你的权限：{0};
-kick.createfail=[scarlet]无法创建玩家，请重新加入;
-kick.antigrief=[scarlet]自动封禁：可能是破坏者;
-menu.invalid=[scarlet]无效菜单。;
-menu.closed=[red]已关闭。;
-menu.invalidoption=[scarlet]无效选项。;
+
+menu.maps.title=地图;
+
+menu.next=[lightgray]->;
+
+menu.page=[gray]第 {0}/{1} 页;
+
+menu.prev=[lightgray]<-;
+
+menu.settings.message=点击以更改设置;
+
+menu.settings.title=设置;
+
 menu.shop.balance=余额：[green]$[white]{0};
+
+menu.shop.category.items=道具;
+
+menu.shop.category.other=其他;
+
+menu.shop.category.units=单位;
+
+menu.shop.cores-repaired=[stat]玩家 {0} [stat]花费 [green]$[lightgray]2500 [stat]修复了所有 [white]{1} [stat]核心;
+
 menu.shop.cost={0}
 [green]$[lightgray]{1};
-menu.shop.count.title=选择数量;
+
 menu.shop.count.message=请选择单位数量。;
-menu.info.title=信息;
-menu.trace.name=[green]名称;
-menu.trace.id=ID;
-menu.trace.locale=语言;
-menu.trace.ip=[green]IP;
-menu.trace.mobile=移动端;
-menu.trace.client=[green]自定义客户端;
-menu.trace.joined=加入次数;
-menu.trace.kicked=被踢次数;
+
+menu.shop.count.title=选择数量;
+
+menu.shop.healcores=[green]修复核心;
+
+menu.shop.no-money=[scarlet]你的金币不足！;
+
+menu.shop.title=[yellow]黑市;
+
+menu.shop.unit-bought=[stat]玩家 {0} [stat]购买了 [white]{1}[stat]，花费 [green]$[lightgray]{2};
+
+menu.slot.fail=[red]失败：-${0};
+
+menu.slot.win=[green]赢得：${0};
+
 menu.trace.ban=[scarlet]封禁;
-menu.trace.modstats=[white]SchemShiz：{0}
+
+menu.trace.client=[green]自定义客户端;
+
+menu.trace.id=ID;
+
+menu.trace.ip=[green]IP;
+
+menu.trace.joined=加入次数;
+
+menu.trace.kicked=被踢次数;
+
+menu.trace.locale=语言;
+
+menu.trace.mobile=移动端;
+
+menu.trace.mod-stats=[white]SchemShiz：{0}
 []Foo''s：{1}
 []AgzamMod：{2};
-menu.ban.noreason=[scarlet]原因不能为空！;
-menu.ban.notime=[scarlet]时间为空！1h 1d 1m 1y perm 等。;
-menu.ban.unknowntime=[scarlet]未知时间！请使用 1h 1d 1m 1y perm 等。;
-menu.ban.success=[green]玩家已被封禁。;
-menu.ban.fail=[scarlet]无法封禁该玩家。;
-menu.ban.reason.title=原因;
-menu.ban.reason.message=在此填写原因;
-menu.ban.time.title=封禁时长;
-menu.ban.time.message=在此填写时长，例如 1d;
-menu.page=[gray]第 {0}/{1} 页;
-menu.prev=[lightgray]<-;
-menu.cancel=[red]取消;
-menu.next=[lightgray]->;
-menu.cancelled=[red]已取消。;
-textmenu.invalid=[scarlet]未知输入！;
+
+menu.trace.name=[green]名称;
+
+menu.welcome.message=你好，欢迎来到 EscoCorp。
+这个服务器有点像 404ru，原因如下：
+目前 404 使用的 EscoPlugin 有部分是由我制作的，因此一些功能实现可能会相似。
+简而言之：不要恶意破坏，不要当混蛋，遵循常识，不要太菜，也不要 RP。;
+
+menu.welcome.title=欢迎菜单;
+
+message.credentials-differ=你的认证凭据不同。请在 Discord 上联系我们。如果你拥有管理员权限，在更新认证凭据之前这些权限将不会生效。;
+
+message.join=[{0}] [green]玩家 {1} [green]加入了服务器！;
+
+message.leave=[{0}] [red]玩家 {1} [red]离开了服务器！;
+
+message.permissions=你的权限：{0};
+
+message.team-changed=[green]你现在属于队伍[white];
+
+notice.attem83=[scarlet]请勿使用 attem83 逻辑！它被认为是糟糕的逻辑。;
+
+notice.no-lag-machines=[scarlet]请不要建造卡服机器！;
+
+notice.unit-despawn=[stat]单位删除时间！;
+
+replay.done=完成！;
+
+slot.bet-must-be-positive=[scarlet]赌注必须大于 0！;
+
+slot.fail={0} [yellow]正在转动老虎机！
+[lightgray][{1}] [{2}] [{3}]
+[red]失败：-${4};
+
+slot.win={0} [yellow]正在转动老虎机！
+[lightgray][{1}] [{2}] [{3}]
+[green]赢得：${4};

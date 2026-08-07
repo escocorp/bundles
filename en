@@ -1,209 +1,86 @@
-attem83=Dont use this;
+announce.admin-recruitment=[stat]Server administration recruitment is now open — maybe we're looking for you!
+[lightgray]{0};
 
-vnw.votedy=[stat]Player {0} [stat]voted [green]FOR[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
-vnw.votedn=[stat]Player {0} [stat]voted [red]AGAINST[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
-vnw.pass=[stat]The vote to skip the wave has been accepted!;
-vnw.failed=[stat]The vote to skip the wave has been rejected!;
+announce.ban=[scarlet]Player [lightgray][{0}] {1} [scarlet]was banned for {2} for the reason [lightgray]{3};
 
-infomessage.economyguide=Guide on how to become rich.
+announce.discord=[stat]Join our [blue]Discord!
+[lightgray]{0};
+
+announce.map-change=[stat]Time to change the map! Save your buildings.;
+
+announce.reports=[stat]If you notice a violation, you can report it in our [blue]Discord
+[lightgray]{0}
+Or by contact@larzed.icu;
+
+command.a.description=Send a message only to administrators.;
+
+command.argument.amount-positive=[scarlet]Amount must be > 0;
+
+command.argument.must-be-less-than=Argument {0} must be less than {1};
+
+command.argument.must-be-number=Argument {0} must be a number!;
+
+command.artv.description=End the game;
+
+command.ban.description=Ban a player;
+
+command.ban.fail=[scarlet]Failed to ban player;
+
+command.ban.success=[green]Player banned!;
+
+command.ban.unknown-time=[scarlet]Unknown time, use d w m y or perm!;
+
+command.captured.description=View the number of hexes you have captured;
+
+command.cost.description=Find out the cost of a unit;
+
+command.did-you-mean=[scarlet]Unknown command. Did you mean [lightgray]"{0}"[]?;
+
+command.disabled-in-hexed=You cannot use this command in Hexed!;
+
+command.discord.description=Get the Discord invite link;
+
+command.economy.description=View the economy guide;
+
+command.economy.guide=Guide on how to become rich.
 For every 50 blocks, you receive 1 to 3 coins to your balance, depending on the game mode.
 For each wave you complete, you receive 3 to 5 coins to your balance, depending on the mode.
 Coins from your balance can be spent on items on the black market using the /shop command.
 Coins can also be earned and spent by playing slots using the /slot <bet> command.;
 
-slots.win={0} [yellow]spins the slot!
-[lightgray][{1}] [{2}] [{3}]
-[green]Win: ${4};
+command.few-arguments=[scarlet]Too few arguments. Usage:[lightgray] {0}[gray] {1};
 
-slots.fail={0} [yellow]spins the slot!
-[lightgray][{1}] [{2}] [{3}]
-[red]Loss: -${4};
+command.give.description=Transfer money to another player;
 
-slots.smollbet=[scarlet]Bet must be > 0;
+command.give.money-received=[yellow]{0} [green]coins received from {1}[green].;
 
-menus.slots.win=[green]Win: ${0};
-menus.slots.fail=[red]Loss: -${0};
+command.give.not-enough-money=[scarlet]Not enough balance.;
 
-menu.shop.title=[yellow]Black Market;
-menu.shop.unitbuy=[stat]Player {0} [stat]bought [white]{1}[stat] for [green]$[lightgray]{2};
-menu.shop.healcores=[green]Repair cores;
-menu.shop.advertise.healcores=[stat]Player {0} [stat]repaired all cores [white]{1} [stat]for [green]$[lightgray]2500;
-menu.shop.nomoney=[scarlet]You dont have enough coins!;
+command.give.player-not-found=[scarlet]Player not found! You don't need to type the full name.;
 
-advertise.banned=[scarlet]Player [lightgray][{0}] {1} [scarlet]was banned for {2} for the reason [lightgray]{3};
-votekick.immune=[scarlet]This player cannot be kicked!;
-advertise.admins=[stat]Server administration recruitment is now open — maybe we're looking for you!
-[lightgray]{0};
-advertise.discord=[stat]Join our [blue]Discord!
-[lightgray]{0};
-advertise.reports=[stat]If you notice a violation, you can report it in our [blue]Discord
-[lightgray]{0}
-Or by contact@larzed.icu;
-votekick.targetleft=[lightgray]Vote passed, the player has left the server!;
+command.give.success=[yellow]{0} [green]coins given to {1}[green].;
 
-kick.graylisted=Your IP are blacklisted.
-To unblock, please contact our Discord server.
-{0};
+command.help.description=Show the list of all commands.;
 
-menu.welcome.title=Welcome Menu;
-menu.welcome.message=Hello, welcome to EscoCorp.
-The server is somewhat similar to 404ru, let me explain why.
-The EscoPlugin currently running on 404 was partially made by me, so some implementations may occasionally look similar.
-In short, follow the rules: don't grief, don't be a jerk, act logically, don't be a noob, and don't RP.;
+command.hexstatus.description=View the status of the current hex;
 
-menus.dontshow=Don't show;
-menus.close=[red]Close;
+command.hidden.description=Hide your administrator rights from others;
 
-args.mustbeint=Argument {0} must be a number!;
-args.lessthan=Argument {0} must be less than {1};
+command.hidden.ok=[green]Ok!;
 
-noperms=[scarlet]You do not have permission to perform this action;
-botcheck=[scarlet]Please reconnect.;
-unitdespawn=[stat]Unit despawn time!;
-logic.antilag=[scarlet]Do not build lag machines!;
+command.hidden.unknown-boolean=[scarlet]Unknown boolean! Use y/yes/t or n/no/f.;
 
-messages.join=[{0}] [green]Player {1} [green]joined the server!;
-messages.leave=[{0}] [red]Player {1} [red]left the server!;
+command.history.description=View block history;
 
-admin.kicked=[scarlet]You were kicked by[white];
-team.changed=[green]You are now on team[white];
-banned=[scarlet]You are banned![white]
-Ban ID: {3}
-Reason: {0}
-Unban in: {1}
-Appeal in our Discord server {2}
-Or at contact@larzed.icu;
+command.history.disabled=[scarlet]Disabled;
 
-muted=[scarlet]You muted for reason {0} [scarlet]. Unmute in {1};
+command.history.enabled=[green]Enabled! Tap on a tile to see history.;
 
-discord.link=Now join our Discord and send
-{0}link {1}
-in any channel!
-Do not leave the server during the process!
-[blue]Discord:[] {2};
+command.hub.description=Connect to the server hub;
 
-rtv.error.voted=[scarlet]You have already voted. Sit down.;
-rtv.playervoted=[stat]RTV: Player {0} [stat]voted to skip the map! Votes: {1} [lightgray](/rtv y/n);
-rtv.playerleft=[scarlet]RTV: Player {0} [stat]left! Votes: {1};
+command.info.description=Show information about the Crawler Arena mode;
 
-rtv.failed=Vote failed. Not enough votes to skip the map. Votes {0}/{1};
-rtv.votey=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} [lightgray](/rtv y/n);
-rtv.voten=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} [lightgray](/rtv y/n);
-rtv.voteymap=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
-rtv.votenmap=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
-rtv.pass=[green]Map skip vote passed!;
-
-votekick.disabled=[scarlet]Vote kick is disabled here!;
-votekick.fewplayers=[scarlet]At least 3 players are required to start a vote kick!;
-votekick.localplayer=[scarlet]Just kick the player yourself if you are the host.;
-votekick.alreadystarted=[scarlet]Vote is already in progress!;
-votekick.noreason=[scarlet]A reason is required to kick a player. Add it after the player name.;
-votekick.kickyouself=[scarlet]You cannot kick yourself!;
-votekick.admin=[scarlet]Did you really think you could kick an admin?;
-votekick.localplayer2=[scarlet]Local player cannot be kicked!;
-votekick.onlyyourteam=[scarlet]Only players from your team can be kicked!;
-votekick.wait=[scarlet]You must wait {0} minutes before starting another vote!;
-votekick.start=[lightgray]Reason:[orange] {0}[lightgray].;
-votekick.playernotfound=[scarlet]Player [orange] '{0}' [scarlet] not found!;
-
-votekick.failed=[lightgray]Vote failed. Not enough votes to kick[orange] {0}[lightgray];
-votekick.voted=[lightgray]{0}[lightgray] voted to kick[orange] {1}[lightgray].[accent] ({2}/{3})
-[lightgray]Type[orange] /vote <y/n>[] to vote.;
-votekick.passed=[orange]Vote passed.[scarlet] {0}[orange] will be banned on the server for {1} minutes.;
-
-vote.novoteinprogress=[scarlet]There is no active vote! Start one?;
-vote.canceledbyadmin=[lightgray]Vote canceled by admin[orange] {0}[lightgray].;
-vote.local=[scalret]Local players cannot vote! Just kick them yourself!;
-vote.alreadyvoted=[scarlet]You have already voted {0}. Sit down.;
-vote.targetisplayer=[scarlet]You cannot vote against yourself!;
-vote.otherteam=[scarlet]You cannot vote against other teams!;
-vote.unknownvote=[scarlet]Choose between 'y' (yes) or 'n' (no).;
-
-commands.nodesc=No description available.;
-commands.unknownpage=[scarlet]Unknown page!;
-commands.didyoumean=[scarlet]Unknown command. Did you mean [lightgray]"{0}"[]?;
-commands.unknown=[scarlet]Unknown command. See [lightgray]/help[scarlet].;
-commands.manyargs=[scarlet]Too many arguments. Usage:[lightgray] {0}[gray] {1};
-commands.fewargs=[scarlet]Too few arguments. Usage:[lightgray] {0}[gray] {1};
-
-commands.t.description=Send a message only to your team.;
-commands.a.description=Send a message only to administrators.;
-commands.votekick.description=Start a vote to kick a player with a reason.;
-commands.sync.description=Resynchronize the world state.;
-commands.help.description=Show the list of all commands.;
-commands.rtv.description=Vote to skip the map.;
-commands.vote.description=Vote in the current kick vote. Admins can cancel it using 'c';
-commands.ban.description=Ban a player;
-commands.team.description=Change your team;
-
-commands.slot.description=LETS GO GAMBLING!;
-commands.shop.description=You can buy units here!;
-commands.hidden.description=Hide your administrator rights from others;
-commands.link.description=Link your Discord account to your game account;
-commands.artv.description=End the game;
-commands.discord.descripton=Get a link to our Discord;
-commands.stats.description=View your game statistics on the server;
-commands.economy.description=View the economy guide;
-
-rtv.error.hexed=You cannot use this command in Hexed!;
-commands.vnw.description=Start a vote to skip the wave;
-commands.runwave.description=Launch a specified number of waves;
-commands.name.description=Change your nickname on the server. Leave empty to restore your old nickname.;
-commands.hub.description=Connect to the server hub;
-commands.testmenus.description=Test menu functionality;
-commands.testtextmenus.description=Test text menus;
-commands.maps.description=View server maps;
-commands.vanish.description=Hide yourself from other players;
-commands.pay.description=Send money to a player;
-commands.thelp.description=Text version of the /help command;
-commands.test.description=Test the plugin;
-commands.history.description=View block history;
-commands.discord.description=Get the Discord invite link;
-commands.captured.description=View the number of hexes you have captured;
-commands.hexstatus.description=View the status of the current hex;
-
-units=Units;
-items=Items;
-other=Other;
-
-crawler.events.victory=[green]You won in {0} seconds.\n[scarlet]Now, face this.;
-crawler.events.boss=[scarlet]Annihilation is inevitable. You will not survive. It is already near.;
-crawler.events.why-alive=[red]Why haven't you lost yet?;
-crawler.events.what-so-long=[red]What makes you fight so desperately?;
-crawler.events.good-game=[red]You are still alive... Impressive...;
-
-crawler.events.heal=[#{0}]Unit durability restored.;
-crawler.events.aid=[green]Reinforcements are on the way.;
-crawler.events.gameover.lose=[red]You have been defeated.;
-crawler.events.gameover.win=[green]Victory.;
-
-crawler.events.first-wave=[red]First wave arrives in {0} seconds.;
-crawler.events.wave=[red]Next wave in {0} seconds.;
-crawler.events.next-wave=[yellow]Next wave in {0} seconds.;
-
-crawler.events.tip.info=[cyan]For unit upgrade info, type /info.;
-crawler.events.tip.upgrades=[cyan]To see all upgradable units, type /upgrades.;
-crawler.events.join.welcome=[cyan]Welcome to the Crawler Arena. Use /info for useful information about this mode.;
-crawler.events.join.already-played=[cyan]It seems you have already played this match. Your balance and unit have been restored.;
-
-crawler.commands.upgrade.use-unit=[scarlet]Command has been renamed, use [orange]/unit <name>[]!;
-crawler.commands.upgrade.unit-not-found=[scarlet]Unit not found! Use [orange]/upgrades[] to see available units!;
-crawler.commands.upgrade.already=[scarlet]Extra unit purchased.;
-crawler.commands.upgrade.success=[green]Unit successfully upgraded!;
-crawler.commands.upgrade.not-enough-money=[scarlet]Not enough money to purchase this unit!;
-crawler.commands.upgrade.too-many-units=[scarlet]Too many units of this type on the map.;
-
-crawler.commands.upgrades.header=[accent]List of available upgrade units:\n[];
-crawler.commands.upgrades.page=[accent][Page {0}/{1}];
-
-crawler.commands.give.player-not-found=[scarlet]Player not found! You don't need to type the full name.;
-crawler.commands.give.success=[yellow]{0} [green]coins given to {1}[green].;
-crawler.commands.give.money-recieved=[yellow]{0} [green]coins received from {1}[green].;
-crawler.commands.give.not-enough-money=[scarlet]Not enough balance.;
-
-crawler.exceptions.invalid-amount=[scarlet]Invalid amount.;
-
-crawler.commands.info=[accent]After each wave, all players receive the same amount of coins.
+command.info.message=[accent]After each wave, all players receive the same amount of coins.
 Coins can be spent on upgrading units.
 Your balance is shown at the top of the screen.
 Commands accept unit types in English.
@@ -215,104 +92,409 @@ Upgrading after death revives you.\
 Upgrading into your own unit buys an additional unit (no revive).
 Survive 25 waves and kill the boss to win.;
 
-crawler.labels.money=[gold]Balance: {0};
+command.invalid-amount=[scarlet]Invalid amount.;
 
-commands.unit.description=Upgrade to another unit. If a quantity is specified, units are purchased instead to fight alongside you;
-commands.give.description=Transfer money to another player;
-commands.info.description=Show information about the Crawler Arena mode;
-commands.upgrades.description=Show units you can upgrade to;
-commands.cost.description=Find out the cost of a unit;
+command.link.already-linked=Account already linked!;
 
-antivpn=[red]You were detected by [scarlet]AntiVPN!
-[white]Try disabling your VPN/Proxy and rejoin, or link your Discord using the /link command.
-Our [blue]Discord[]: {0};
+command.link.description=Link your Discord account to your game account;
 
-discord.verifyusid={0} Click the button below to confirm the USID change!;
-discord.verifyusid.label=Change USID.;
+command.link.error=[scarlet]Something went wrong! Try again later or choose another link type.;
 
-discord.link.selecttype=Choose the method that is most convenient for you.;
-discord.link.uri=Link
+command.many-arguments=[scarlet]Too many arguments. Usage:[lightgray] {0}[gray] {1};
 
-[lightgray]Open the link and authorize the bot;
+command.maps.description=View server maps;
+
+command.name.description=Change your nickname on the server. Leave empty to restore your old nickname.;
+
+command.no-description=No description available.;
+
+command.no-player-data=No player data present!;
+
+command.pages.header=[orange]-- Commands Page {0}/{1} --;
+
+command.pay.description=Send money to a player;
+
+command.pay.received=[green]Player {0} [green]gave you $[white]{1} [green](commission $[white]{2}[green]);
+
+command.pay.sent=[green]You gave {0} [green]$[white]{1} [green](commission $[white]{2}[green]);
+
+command.rtv.already-voted=[scarlet]You have already voted. Sit down.;
+
+command.rtv.description=Vote to skip the map.;
+
+command.rtv.failed=Vote failed. Not enough votes to skip the map. Votes {0}/{1};
+
+command.rtv.passed=[green]Map skip vote passed!;
+
+command.rtv.player-left=[scarlet]RTV: Player {0} [stat]left! Votes: {1};
+
+command.rtv.player-voted=[stat]RTV: Player {0} [stat]voted to skip the map! Votes: {1} [lightgray](/rtv y/n);
+
+command.rtv.voted-no=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} [lightgray](/rtv y/n);
+
+command.rtv.voted-no-map=[stat]Player {0} [stat]voted [scarlet]against[stat] skipping the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
+
+command.rtv.voted-yes=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} [lightgray](/rtv y/n);
+
+command.rtv.voted-yes-map=[stat]Player {0} [stat]voted [green]to skip[stat] the map! Votes: {1}/{2} Map: {3} [lightgray](/rtv y/n);
+
+command.runwave.description=Launch a specified number of waves;
+
+command.say.prefix=[scarlet][Server]:[white] {0};
+
+command.shop.description=You can buy units here!;
+
+command.slot.description=LETS GO GAMBLING!;
+
+command.stats.balance=Balance: [green]$[]{0};
+
+command.stats.blocks-broken=Blocks broken: {0};
+
+command.stats.blocks-built=Blocks built: {0};
+
+command.stats.description=View your game statistics on the server;
+
+command.stats.header=[stat]Stats:;
+
+command.stats.playtime=Playtime: {0};
+
+command.stats.waves-survived=Waves survived: {0};
+
+command.sync.cooldown=[scarlet]You may only /sync every 5 seconds.;
+
+command.sync.description=Resynchronize the world state.;
+
+command.t.description=Send a message only to your team.;
+
+command.team.description=Change your team;
+
+command.test.description=Test the plugin;
+
+command.testmenus.description=Test menu functionality;
+
+command.testtextmenus.description=Test text menus;
+
+command.thelp.description=Text version of the /help command;
+
+command.unit.description=Upgrade to another unit. If a quantity is specified, units are purchased instead to fight alongside you;
+
+command.unit.not-found=[scarlet]Unit not found! Use [orange]/upgrades[] to see available units!;
+
+command.unknown=[scarlet]Unknown command. See [lightgray]/help[scarlet].;
+
+command.unknown-page=[scarlet]Unknown page!;
+
+command.upgrade.extra-unit=[scarlet]Extra unit purchased.;
+
+command.upgrade.not-enough-money=[scarlet]Not enough money to purchase this unit!;
+
+command.upgrade.success=[green]Unit successfully upgraded!;
+
+command.upgrade.too-many-units=[scarlet]Too many units of this type on the map.;
+
+command.upgrade.use-unit=[scarlet]Command has been renamed, use [orange]/unit <name>[]!;
+
+command.upgrades.description=Show units you can upgrade to;
+
+command.upgrades.header=[accent]List of available upgrade units:\n[];
+
+command.upgrades.page=[accent][Page {0}/{1}];
+
+command.vanish.description=Hide yourself from other players;
+
+command.vanish.off=Unvanished!;
+
+command.vanish.on=Vanished!;
+
+command.vnw.description=Start a vote to skip the wave;
+
+command.vnw.failed=[stat]The vote to skip the wave has been rejected!;
+
+command.vnw.passed=[stat]The vote to skip the wave has been accepted!;
+
+command.vnw.voted-no=[stat]Player {0} [stat]voted [red]AGAINST[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
+
+command.vnw.voted-yes=[stat]Player {0} [stat]voted [green]FOR[stat] skipping the wave! {1}/{2} [lightgray](/vnw y/n);
+
+command.vote.already-voted=[scarlet]You have already voted {0}. Sit down.;
+
+command.vote.canceled-by-admin=[lightgray]Vote canceled by admin[orange] {0}[lightgray].;
+
+command.vote.cannot-vote-self=[scarlet]You cannot vote against yourself!;
+
+command.vote.description=Vote in the current kick vote. Admins can cancel it using 'c';
+
+command.vote.local-player=[scalret]Local players cannot vote! Just kick them yourself!;
+
+command.vote.no-vote-in-progress=[scarlet]There is no active vote! Start one?;
+
+command.vote.other-team=[scarlet]You cannot vote against other teams!;
+
+command.vote.unknown-choice=[scarlet]Choose between 'y' (yes) or 'n' (no).;
+
+command.votekick.admin-immune=[scarlet]Did you really think you could kick an admin?;
+
+command.votekick.already-started=[scarlet]Vote is already in progress!;
+
+command.votekick.cannot-kick-self=[scarlet]You cannot kick yourself!;
+
+command.votekick.cooldown=[scarlet]You must wait {0} minutes before starting another vote!;
+
+command.votekick.description=Start a vote to kick a player with a reason.;
+
+command.votekick.disabled=[scarlet]Vote kick is disabled here!;
+
+command.votekick.failed=[lightgray]Vote failed. Not enough votes to kick[orange] {0}[lightgray];
+
+command.votekick.few-players=[scarlet]At least 3 players are required to start a vote kick!;
+
+command.votekick.immune=[scarlet]This player cannot be kicked!;
+
+command.votekick.local-player=[scarlet]Just kick the player yourself if you are the host.;
+
+command.votekick.local-player-immune=[scarlet]Local player cannot be kicked!;
+
+command.votekick.no-reason=[scarlet]A reason is required to kick a player. Add it after the player name.;
+
+command.votekick.passed=[orange]Vote passed.[scarlet] {0}[orange] will be banned on the server for {1} minutes.;
+
+command.votekick.player-not-found=[scarlet]Player [orange] '{0}' [scarlet] not found!;
+
+command.votekick.players=[orange]Players to kick:;
+
+command.votekick.same-team-only=[scarlet]Only players from your team can be kicked!;
+
+command.votekick.start=[lightgray]Reason:[orange] {0}[lightgray].;
+
+command.votekick.target-left=[lightgray]Vote passed, the player has left the server!;
+
+command.votekick.voted=[lightgray]{0}[lightgray] voted to kick[orange] {1}[lightgray].[accent] ({2}/{3})
+[lightgray]Type[orange] /vote <y/n>[] to vote.;
+
+crawler.event.aid=[green]Reinforcements are on the way.;
+
+crawler.event.boss=[scarlet]Annihilation is inevitable. You will not survive. It is already near.;
+
+crawler.event.first-wave=[red]First wave arrives in {0} seconds.;
+
+crawler.event.game-over.lose=[red]You have been defeated.;
+
+crawler.event.game-over.win=[green]Victory.;
+
+crawler.event.good-game=[red]You are still alive... Impressive...;
+
+crawler.event.heal=[#{0}]Unit durability restored.;
+
+crawler.event.join.already-played=[cyan]It seems you have already played this match. Your balance and unit have been restored.;
+
+crawler.event.join.welcome=[cyan]Welcome to the Crawler Arena. Use /info for useful information about this mode.;
+
+crawler.event.next-wave=[yellow]Next wave in {0} seconds.;
+
+crawler.event.tip.info=[cyan]For unit upgrade info, type /info.;
+
+crawler.event.tip.upgrades=[cyan]To see all upgradable units, type /upgrades.;
+
+crawler.event.victory=[green]You won in {0} seconds.\n[scarlet]Now, face this.;
+
+crawler.event.wave=[red]Next wave in {0} seconds.;
+
+crawler.event.what-so-long=[red]What makes you fight so desperately?;
+
+crawler.event.why-alive=[red]Why haven't you lost yet?;
+
+crawler.label.balance=[gold]Balance: {0};
+
+discord.link.instructions=Now join our Discord and send
+{0}link {1}
+in any channel!
+Do not leave the server during the process!
+[blue]Discord:[] {2};
+
+discord.link.select-method=Choose the method that is most convenient for you.;
 
 discord.link.text=Text
 
 [lightgray]Send a command with the code in Discord.;
 
-commands.noplayerdata=No player data present!;
-menu.settings.title=Settings;
-menu.settings.message=Click to change a setting;
-menu.maps.title=Maps;
+discord.link.uri=Link
+
+[lightgray]Open the link and authorize the bot;
+
+discord.verify-usid={0} Click the button below to confirm the USID change!;
+
+discord.verify-usid.label=Change USID.;
+
+error.no-permission=[scarlet]You do not have permission to perform this action;
+
+error.player-not-found=[scarlet]Player with that name not found!;
+
+error.unknown=[scarlet]Unknown error;
+
+kick.banned=[scarlet]You are banned![white]
+Ban ID: {3}
+Reason: {0}
+Unban in: {1}
+Appeal in our Discord server {2}
+Or at contact@larzed.icu;
+
+kick.bot-check=[scarlet]Please reconnect.;
+
+kick.by-admin=[scarlet]You were kicked by[white];
+
+kick.database-unavailable=[scarlet]Failed to create player! The server database may not be available;
+
+kick.graylisted=Your IP are blacklisted.
+To unblock, please contact our Discord server.
+{0};
+
+kick.muted=[scarlet]You muted for reason {0} [scarlet]. Unmute in {1};
+
+kick.name-empty=Your name must not be empty!;
+
+kick.player-create-failed=[scarlet]Failed to create player, try re-joining;
+
+kick.possible-griefer=[scarlet]AutoBan: Possible griefer;
+
+kick.vpn-detected=[red]You were detected by [scarlet]AntiVPN!
+[white]Try disabling your VPN/Proxy and rejoin, or link your Discord using the /link command.
+Our [blue]Discord[]: {0};
+
+menu.ban.fail=[scarlet]Failed to ban the player.;
+
+menu.ban.no-reason=[scarlet]Reason is empty!;
+
+menu.ban.no-time=[scarlet]Time is empty! 1h 1d 1m 1y perm, etc.;
+
+menu.ban.reason.message=Write the reason here;
+
+menu.ban.reason.title=Reason;
+
+menu.ban.success=[green]Player banned.;
+
+menu.ban.time.message=Write the time here, e.g. 1d;
+
+menu.ban.time.title=Ban Time;
+
+menu.ban.unknown-time=[scarlet]Unknown time! Use 1h 1d 1m 1y perm, etc.;
+
+menu.cancel=[red]Cancel;
+
+menu.cancelled=[red]Cancelled.;
+
+menu.close=[red]Close;
+
+menu.closed=[red]Closed.;
+
+menu.dont-show=Don't show;
+
+menu.help.title=Help;
+
+menu.info.title=Info;
+
+menu.invalid=[scarlet]Invalid menu.;
+
+menu.invalid-input=[scarlet]Unknown input!;
+
+menu.invalid-option=[scarlet]Invalid option.;
+
 menu.maps.item={0}
 [lightgray]{1}x{2};
-commands.vanish.on=Vanished!;
-commands.vanish.off=Unvanished!;
-errors.playernotfound=[scarlet]Player with that name not found!;
-errors.unknown=[scarlet]Unknown error;
-args.amountpositive=[scarlet]Amount must be > 0;
-menu.pay.received=[green]Player {0} [green]gave you $[white]{1} [green](commission $[white]{2}[green]);
-menu.pay.sent=[green]You gave {0} [green]$[white]{1} [green](commission $[white]{2}[green]);
-commands.sync.cooldown=[scarlet]You may only /sync every 5 seconds.;
-commands.pages.header=[orange]-- Commands Page {0}/{1} --;
-menu.help.title=Help;
-stats.header=[stat]Stats:;
-stats.blocksbuild=Blocks built: {0};
-stats.blocksbroken=Blocks broken: {0};
-stats.wavessurvived=Waves survived: {0};
-stats.balance=Balance: [green]$[]{0};
-stats.playtime=Playtime: {0};
-commands.ban.unknowntime=[scarlet]Unknown time, use d w m y or perm!;
-commands.ban.success=[green]Player banned!;
-commands.ban.fail=[scarlet]Failed to ban player;
-commands.history.disabled=[scarlet]Disabled;
-commands.history.enabled=[green]Enabled! Tap on a tile to see history.;
-commands.link.alreadylinked=Account already linked!;
-commands.link.error=[scarlet]Something went wrong! Try again later or choose another link type.;
-commands.hidden.ok=[green]Ok!;
-commands.hidden.unknownbool=[scarlet]Unknown boolean! Use y/yes/t or n/no/f.;
-commands.say.prefix=[scarlet][Server]:[white] {0};
-commands.votekick.players=[orange]Players to kick:;
-patches.mapchange=[stat]Time to change the map! Save your buildings.;
-replays.done=Done!;
-kick.noname=Your name must not be empty!;
-kick.createdb=[scarlet]Failed to create player! The server database may not be available;
-messages.credsdiffer=Your authentication credentials are different. Please contact us on Discord. If you have admin rights, they will not be granted until the authentication credentials are updated.;
-messages.permissions=Your permissions: {0};
-kick.createfail=[scarlet]Failed to create player, try re-joining;
-kick.antigrief=[scarlet]AutoBan: Possible griefer;
-menu.invalid=[scarlet]Invalid menu.;
-menu.closed=[red]Closed.;
-menu.invalidoption=[scarlet]Invalid option.;
+
+menu.maps.title=Maps;
+
+menu.next=[lightgray]->;
+
+menu.page=[gray]Page {0}/{1};
+
+menu.prev=[lightgray]<-;
+
+menu.settings.message=Click to change a setting;
+
+menu.settings.title=Settings;
+
 menu.shop.balance=Balance: [green]$[white]{0};
+
+menu.shop.category.items=Items;
+
+menu.shop.category.other=Other;
+
+menu.shop.category.units=Units;
+
+menu.shop.cores-repaired=[stat]Player {0} [stat]repaired all cores [white]{1} [stat]for [green]$[lightgray]2500;
+
 menu.shop.cost={0}
 [green]$[lightgray]{1};
-menu.shop.count.title=Select count;
+
 menu.shop.count.message=Please, select the units count.;
-menu.info.title=Info;
-menu.trace.name=[green]Name;
-menu.trace.id=ID;
-menu.trace.locale=Locale;
-menu.trace.ip=[green]IP;
-menu.trace.mobile=Mobile;
-menu.trace.client=[green]Custom Client;
-menu.trace.joined=Times Joined;
-menu.trace.kicked=Times Kicked;
+
+menu.shop.count.title=Select count;
+
+menu.shop.healcores=[green]Repair cores;
+
+menu.shop.no-money=[scarlet]You dont have enough coins!;
+
+menu.shop.title=[yellow]Black Market;
+
+menu.shop.unit-bought=[stat]Player {0} [stat]bought [white]{1}[stat] for [green]$[lightgray]{2};
+
+menu.slot.fail=[red]Loss: -${0};
+
+menu.slot.win=[green]Win: ${0};
+
 menu.trace.ban=[scarlet]Ban;
-menu.trace.modstats=[white]SchemShiz: {0}
+
+menu.trace.client=[green]Custom Client;
+
+menu.trace.id=ID;
+
+menu.trace.ip=[green]IP;
+
+menu.trace.joined=Times Joined;
+
+menu.trace.kicked=Times Kicked;
+
+menu.trace.locale=Locale;
+
+menu.trace.mobile=Mobile;
+
+menu.trace.mod-stats=[white]SchemShiz: {0}
 []Foo''s: {1}
 []AgzamMod: {2};
-menu.ban.noreason=[scarlet]Reason is empty!;
-menu.ban.notime=[scarlet]Time is empty! 1h 1d 1m 1y perm, etc.;
-menu.ban.unknowntime=[scarlet]Unknown time! Use 1h 1d 1m 1y perm, etc.;
-menu.ban.success=[green]Player banned.;
-menu.ban.fail=[scarlet]Failed to ban the player.;
-menu.ban.reason.title=Reason;
-menu.ban.reason.message=Write the reason here;
-menu.ban.time.title=Ban Time;
-menu.ban.time.message=Write the time here, e.g. 1d;
-menu.page=[gray]Page {0}/{1};
-menu.prev=[lightgray]<-;
-menu.cancel=[red]Cancel;
-menu.next=[lightgray]->;
-menu.cancelled=[red]Cancelled.;
-textmenu.invalid=[scarlet]Unknown input!;
+
+menu.trace.name=[green]Name;
+
+menu.welcome.message=Hello, welcome to EscoCorp.
+The server is somewhat similar to 404ru, let me explain why.
+The EscoPlugin currently running on 404 was partially made by me, so some implementations may occasionally look similar.
+In short, follow the rules: don't grief, don't be a jerk, act logically, don't be a noob, and don't RP.;
+
+menu.welcome.title=Welcome Menu;
+
+message.credentials-differ=Your authentication credentials are different. Please contact us on Discord. If you have admin rights, they will not be granted until the authentication credentials are updated.;
+
+message.join=[{0}] [green]Player {1} [green]joined the server!;
+
+message.leave=[{0}] [red]Player {1} [red]left the server!;
+
+message.permissions=Your permissions: {0};
+
+message.team-changed=[green]You are now on team[white];
+
+notice.attem83=[scarlet]Do not use attem83 logic! It is considered bad logic.;
+
+notice.no-lag-machines=[scarlet]Do not build lag machines!;
+
+notice.unit-despawn=[stat]Unit despawn time!;
+
+replay.done=Done!;
+
+slot.bet-must-be-positive=[scarlet]Bet must be > 0;
+
+slot.fail={0} [yellow]spins the slot!
+[lightgray][{1}] [{2}] [{3}]
+[red]Loss: -${4};
+
+slot.win={0} [yellow]spins the slot!
+[lightgray][{1}] [{2}] [{3}]
+[green]Win: ${4};
