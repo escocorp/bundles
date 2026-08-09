@@ -112,6 +112,12 @@ command.no-player-data=没有玩家数据！;
 
 command.pages.header=[orange]-- 命令页 {0}/{1} --;
 
+command.owo.description=[pink]当你只是想卖个萌 :3;
+
+command.owo.on=[pink]OwO 腔已开启，喵 >w<;
+
+command.owo.off=[lightgray]OwO 腔已关闭 TwT;
+
 command.pay.description=向玩家转账;
 
 command.pay.received=[green]玩家 {0} [green]向你转了 $[white]{1} [green](手续费 $[white]{2}[green]);
@@ -419,6 +425,8 @@ menu.page=[gray]第 {0}/{1} 页;
 menu.prev=[lightgray]<-;
 
 menu.settings.message=点击以更改设置;
+
+menu.settings.owo=OwO 腔;
 
 menu.settings.title=设置;
 

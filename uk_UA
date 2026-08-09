@@ -112,6 +112,12 @@ command.no-player-data=Дані гравця відсутні!;
 
 command.pages.header=[orange]-- Команди. Сторінка {0}/{1} --;
 
+command.owo.description=[pink]Коли просто хочеться побути няшкою :3;
+
+command.owo.on=[pink]OwO акцент увімкнено, ня >w<;
+
+command.owo.off=[lightgray]OwO акцент вимкнено TwT;
+
 command.pay.description=Надіслати гроші гравцю;
 
 command.pay.received=[green]Гравець {0} [green]переказав вам $[white]{1} [green](комісія $[white]{2}[green]);
@@ -419,6 +425,8 @@ menu.page=[gray]Сторінка {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Натисніть, щоб змінити налаштування;
+
+menu.settings.owo=OwO акцент;
 
 menu.settings.title=Налаштування;
 

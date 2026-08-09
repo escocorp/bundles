@@ -112,6 +112,12 @@ command.no-player-data=Sem dados do jogador!;
 
 command.pages.header=[orange]-- Página de Comandos {0}/{1} --;
 
+command.owo.description=[pink]Para quando você só quer ser fofinho :3;
+
+command.owo.on=[pink]Sotaque OwO ativado, nya >w<;
+
+command.owo.off=[lightgray]Sotaque OwO desativado TwT;
+
 command.pay.description=Enviar dinheiro para um jogador;
 
 command.pay.received=[green]Jogador {0} [green]te enviou $[white]{1} [green](taxa de $[white]{2}[green]);
@@ -419,6 +425,8 @@ menu.page=[gray]Página {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Clique para alterar uma configuração;
+
+menu.settings.owo=Sotaque OwO;
 
 menu.settings.title=Configurações;
 

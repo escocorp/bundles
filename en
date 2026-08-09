@@ -112,6 +112,12 @@ command.no-player-data=No player data present!;
 
 command.pages.header=[orange]-- Commands Page {0}/{1} --;
 
+command.owo.description=[pink]For when you just wanna be a cutie :3;
+
+command.owo.on=[pink]OwO accent enabled, nya >w<;
+
+command.owo.off=[lightgray]OwO accent disabled TwT;
+
 command.pay.description=Send money to a player;
 
 command.pay.received=[green]Player {0} [green]gave you $[white]{1} [green](commission $[white]{2}[green]);
@@ -418,6 +424,8 @@ menu.page=[gray]Page {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Click to change a setting;
+
+menu.settings.owo=OwO accent;
 
 menu.settings.title=Settings;
 

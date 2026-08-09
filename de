@@ -112,6 +112,12 @@ command.no-player-data=Keine Spielerdaten vorhanden!;
 
 command.pages.header=[orange]-- Befehle. Seite {0}/{1} --;
 
+command.owo.description=[pink]Wenn du einfach süß sein willst :3;
+
+command.owo.on=[pink]OwO-Akzent aktiviert, nya >w<;
+
+command.owo.off=[lightgray]OwO-Akzent deaktiviert TwT;
+
 command.pay.description=Einem Spieler Geld senden;
 
 command.pay.received=[green]Spieler {0} [green]hat dir $[white]{1} [green]überwiesen (Gebühr $[white]{2}[green]);
@@ -419,6 +425,8 @@ menu.page=[gray]Seite {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Klicke, um eine Einstellung zu ändern;
+
+menu.settings.owo=OwO-Akzent;
 
 menu.settings.title=Einstellungen;
 
