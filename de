@@ -176,6 +176,14 @@ command.testtextmenus.description=Textmenüs testen;
 
 command.thelp.description=Textdarstellung des /help-Befehls;
 
+command.trail.description=Wähle eine Spur, die deiner Einheit folgt;
+
+command.trail.enabled=[green]Spur [lightgray]{0}[green] aktiviert!;
+
+command.trail.disabled=[lightgray]Spur deaktiviert.;
+
+command.trail.no-access=[scarlet]Diese Spur ist für dich nicht verfügbar.;
+
 command.unit.description=Upgrade zu einer anderen Einheit. Mit Anzahl werden zusätzliche Einheiten gekauft, die mit dir kämpfen.;
 
 command.unit.not-found=[scarlet]Einheit nicht gefunden! Benutze [orange]/upgrades[], um die Liste verfügbarer Einheiten zu sehen!;
@@ -413,6 +421,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=Klicke, um eine Einstellung zu ändern;
 
 menu.settings.title=Einstellungen;
+
+menu.trails.title=Spuren;
+
+menu.trails.message=Klicke auf eine Spur, um sie zu aktivieren;
+
+menu.trails.disable=[red]Spur deaktivieren;
 
 menu.shop.balance=Kontostand: [green]$[white]{0};
 

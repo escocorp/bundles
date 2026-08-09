@@ -176,6 +176,14 @@ command.testtextmenus.description=Test text menus;
 
 command.thelp.description=Text version of the /help command;
 
+command.trail.description=Choose a trail that follows your unit;
+
+command.trail.enabled=[green]Trail [lightgray]{0}[green] enabled!;
+
+command.trail.disabled=[lightgray]Trail disabled.;
+
+command.trail.no-access=[scarlet]This trail is not available to you.;
+
 command.unit.description=Upgrade to another unit. If a quantity is specified, units are purchased instead to fight alongside you;
 
 command.unit.not-found=[scarlet]Unit not found! Use [orange]/upgrades[] to see available units!;
@@ -412,6 +420,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=Click to change a setting;
 
 menu.settings.title=Settings;
+
+menu.trails.title=Trails;
+
+menu.trails.message=Click a trail to enable it;
+
+menu.trails.disable=[red]Disable trail;
 
 menu.shop.balance=Balance: [green]$[white]{0};
 

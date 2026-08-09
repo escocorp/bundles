@@ -176,6 +176,14 @@ command.testtextmenus.description=测试文本菜单;
 
 command.thelp.description=/help 命令的文本版;
 
+command.trail.description=选择一个跟随你单位的尾迹;
+
+command.trail.enabled=[green]已启用尾迹 [lightgray]{0}[green]！;
+
+command.trail.disabled=[lightgray]已关闭尾迹。;
+
+command.trail.no-access=[scarlet]你无法使用该尾迹。;
+
 command.unit.description=升级到另一种单位。指定数量时则会购买与您并肩作战的单位;
 
 command.unit.not-found=[scarlet]未找到单位！使用 [orange]/upgrades[] 查看可用单位!;
@@ -413,6 +421,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=点击以更改设置;
 
 menu.settings.title=设置;
+
+menu.trails.title=尾迹;
+
+menu.trails.message=点击尾迹以启用;
+
+menu.trails.disable=[red]关闭尾迹;
 
 menu.shop.balance=余额：[green]$[white]{0};
 

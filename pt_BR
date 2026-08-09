@@ -176,6 +176,14 @@ command.testtextmenus.description=Testar menus de texto;
 
 command.thelp.description=Versão em texto do comando /help;
 
+command.trail.description=Escolha um rastro que segue sua unidade;
+
+command.trail.enabled=[green]Rastro [lightgray]{0}[green] ativado!;
+
+command.trail.disabled=[lightgray]Rastro desativado.;
+
+command.trail.no-access=[scarlet]Este rastro não está disponível para você.;
+
 command.unit.description=Atualize para outra unidade. Especificar uma quantidade compra unidades para lutar ao seu lado;
 
 command.unit.not-found=[scarlet]Unidade não encontrada! Use [orange]/upgrades[] para ver as disponíveis!;
@@ -413,6 +421,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=Clique para alterar uma configuração;
 
 menu.settings.title=Configurações;
+
+menu.trails.title=Rastros;
+
+menu.trails.message=Clique em um rastro para ativá-lo;
+
+menu.trails.disable=[red]Desativar rastro;
 
 menu.shop.balance=Saldo: [green]$[white]{0};
 

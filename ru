@@ -176,6 +176,14 @@ command.testtextmenus.description=Протестировать текстовы�
 
 command.thelp.description=Текстовое представление /help команды;
 
+command.trail.description=Выбрать след, который следует за вашим юнитом;
+
+command.trail.enabled=[green]След [lightgray]{0}[green] включён!;
+
+command.trail.disabled=[lightgray]След выключен.;
+
+command.trail.no-access=[scarlet]Этот след вам недоступен.;
+
 command.unit.description=Прокачка до другого юнита. Если указать количество, вместо этого будут куплены юниты, которые будут сражаться вместе с вами;
 
 command.unit.not-found=[scarlet]Юнит не найден! Используйте [orange]/upgrades[], чтобы увидеть список доступных юнитов!;
@@ -411,6 +419,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=Нажмите, чтобы изменить настройку;
 
 menu.settings.title=Настройки;
+
+menu.trails.title=Следы;
+
+menu.trails.message=Нажмите на след, чтобы включить его;
+
+menu.trails.disable=[red]Выключить след;
 
 menu.shop.balance=Баланс: [green]$[white]{0};
 

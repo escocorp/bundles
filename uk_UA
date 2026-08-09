@@ -176,6 +176,14 @@ command.testtextmenus.description=Перевірити текстові меню
 
 command.thelp.description=Текстове представлення команди /help;
 
+command.trail.description=Обрати слід, що рухається за вашим юнітом;
+
+command.trail.enabled=[green]Слід [lightgray]{0}[green] увімкнено!;
+
+command.trail.disabled=[lightgray]Слід вимкнено.;
+
+command.trail.no-access=[scarlet]Цей слід вам недоступний.;
+
 command.unit.description=Покращення до іншого юніта. Якщо вказати кількість, замість цього купуються юніти, що будуть битися разом із вами;
 
 command.unit.not-found=[scarlet]Юніт не знайдено! Використовуйте [orange]/upgrades[] для списку доступних юнітів!;
@@ -413,6 +421,12 @@ menu.prev=[lightgray]<-;
 menu.settings.message=Натисніть, щоб змінити налаштування;
 
 menu.settings.title=Налаштування;
+
+menu.trails.title=Сліди;
+
+menu.trails.message=Натисніть на слід, щоб увімкнути його;
+
+menu.trails.disable=[red]Вимкнути слід;
 
 menu.shop.balance=Баланс: [green]$[white]{0};
 
