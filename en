@@ -112,6 +112,12 @@ command.no-player-data=No player data present!;
 
 command.pages.header=[orange]-- Commands Page {0}/{1} --;
 
+command.ohio.description=[cyan]Turn your messages into pure Ohio brainrot;
+
+command.ohio.on=[cyan]Ohio accent enabled. Like in Ohio.;
+
+command.ohio.off=[lightgray]Ohio accent disabled;
+
 command.owo.description=[pink]For when you just wanna be a cutie :3;
 
 command.owo.on=[pink]OwO accent enabled, nya >w<;
@@ -424,6 +430,8 @@ menu.page=[gray]Page {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Click to change a setting;
+
+menu.settings.ohio=Ohio accent;
 
 menu.settings.owo=OwO accent;
 

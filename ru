@@ -112,6 +112,12 @@ command.no-player-data=Данные игрока не найдены!;
 
 command.pages.header=[orange]-- Команды. Страница {0}/{1} --;
 
+command.ohio.description=[cyan]Превратить ваши сообщения в чистый брейнрот;
+
+command.ohio.on=[cyan]Ohio акцент включен. Как в Саратове.;
+
+command.ohio.off=[lightgray]Ohio акцент выключен;
+
 command.owo.description=[pink]Когда просто хочется побыть няшкой :3;
 
 command.owo.on=[pink]OwO акцент включен, ня >w<;
@@ -423,6 +429,8 @@ menu.page=[gray]Страница {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Нажмите, чтобы изменить настройку;
+
+menu.settings.ohio=Ohio акцент;
 
 menu.settings.owo=OwO акцент;
 

@@ -112,6 +112,12 @@ command.no-player-data=Sem dados do jogador!;
 
 command.pages.header=[orange]-- Página de Comandos {0}/{1} --;
 
+command.ohio.description=[cyan]Transforme suas mensagens em puro brainrot;
+
+command.ohio.on=[cyan]Sotaque Ohio ativado. Like in Ohio.;
+
+command.ohio.off=[lightgray]Sotaque Ohio desativado;
+
 command.owo.description=[pink]Para quando você só quer ser fofinho :3;
 
 command.owo.on=[pink]Sotaque OwO ativado, nya >w<;
@@ -425,6 +431,8 @@ menu.page=[gray]Página {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Clique para alterar uma configuração;
+
+menu.settings.ohio=Sotaque Ohio;
 
 menu.settings.owo=Sotaque OwO;
 

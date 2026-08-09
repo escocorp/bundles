@@ -112,6 +112,12 @@ command.no-player-data=Keine Spielerdaten vorhanden!;
 
 command.pages.header=[orange]-- Befehle. Seite {0}/{1} --;
 
+command.ohio.description=[cyan]Verwandle deine Nachrichten in reinen Brainrot;
+
+command.ohio.on=[cyan]Ohio-Akzent aktiviert. Like in Ohio.;
+
+command.ohio.off=[lightgray]Ohio-Akzent deaktiviert;
+
 command.owo.description=[pink]Wenn du einfach süß sein willst :3;
 
 command.owo.on=[pink]OwO-Akzent aktiviert, nya >w<;
@@ -425,6 +431,8 @@ menu.page=[gray]Seite {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Klicke, um eine Einstellung zu ändern;
+
+menu.settings.ohio=Ohio-Akzent;
 
 menu.settings.owo=OwO-Akzent;
 

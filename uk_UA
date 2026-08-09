@@ -112,6 +112,12 @@ command.no-player-data=Дані гравця відсутні!;
 
 command.pages.header=[orange]-- Команди. Сторінка {0}/{1} --;
 
+command.ohio.description=[cyan]Перетворити ваші повідомлення на чистий брейнрот;
+
+command.ohio.on=[cyan]Ohio акцент увімкнено. Як у Саратові.;
+
+command.ohio.off=[lightgray]Ohio акцент вимкнено;
+
 command.owo.description=[pink]Коли просто хочеться побути няшкою :3;
 
 command.owo.on=[pink]OwO акцент увімкнено, ня >w<;
@@ -425,6 +431,8 @@ menu.page=[gray]Сторінка {0}/{1};
 menu.prev=[lightgray]<-;
 
 menu.settings.message=Натисніть, щоб змінити налаштування;
+
+menu.settings.ohio=Ohio акцент;
 
 menu.settings.owo=OwO акцент;
 

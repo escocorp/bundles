@@ -112,6 +112,12 @@ command.no-player-data=没有玩家数据！;
 
 command.pages.header=[orange]-- 命令页 {0}/{1} --;
 
+command.ohio.description=[cyan]把你的消息变成纯正的脑腐;
+
+command.ohio.on=[cyan]Ohio 腔已开启。就像在俄亥俄。;
+
+command.ohio.off=[lightgray]Ohio 腔已关闭;
+
 command.owo.description=[pink]当你只是想卖个萌 :3;
 
 command.owo.on=[pink]OwO 腔已开启，喵 >w<;
@@ -425,6 +431,8 @@ menu.page=[gray]第 {0}/{1} 页;
 menu.prev=[lightgray]<-;
 
 menu.settings.message=点击以更改设置;
+
+menu.settings.ohio=Ohio 腔;
 
 menu.settings.owo=OwO 腔;
 
