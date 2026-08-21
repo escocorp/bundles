@@ -45,6 +45,7 @@ command.economy.description=Ver guia da economia;
 command.economy.guide=Guia de como ficar rico.
 Para cada 50 blocos você recebe de 1 a 3 coins no saldo dependendo do modo de jogo.
 Para cada onda concluída você recebe de 3 a 5 coins no saldo dependendo do modo.
+Por concluir (vencer) um mapa você recebe um bônus único no saldo dependendo do modo.
 Os coins do saldo podem ser gastos comprando itens no mercado negro usando o comando /shop.
 Também é possível ganhar ou gastar coins jogando slots com o comando /slot <aposta>;
 
@@ -164,11 +165,21 @@ command.stats.blocks-broken=Blocos destruídos: {0};
 
 command.stats.blocks-built=Blocos construídos: {0};
 
-command.stats.description=Ver suas estatísticas no servidor;
+command.stats.description=Ver suas estatísticas ou as de outro jogador pelo id dele;
 
 command.stats.header=[stat]Estatísticas:;
 
 command.stats.playtime=Tempo de jogo: {0};
+
+command.top.description=Ver os melhores jogadores por saldo;
+
+command.top.select-title=Selecione o tipo de ranking;
+
+command.top.type.balance=Saldo;
+
+command.top.header=[stat]Melhores jogadores por saldo:;
+
+command.top.entry=[accent]#{0}[] {1} [gray](id {2})[] - [green]${3};
 
 command.stats.waves-survived=Ondas sobrevividas: {0};
 

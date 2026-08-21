@@ -45,6 +45,7 @@ command.economy.description=Einen Leitfaden zur Wirtschaft anzeigen;
 command.economy.guide=Anleitung, wie man reich wird.
 Für jeweils 50 Blöcke erhältst du je nach Spielmodus 1 bis 3 Münzen.
 Für jede überstandene Welle erhältst du je nach Spielmodus 3 bis 5 Münzen.
+Für das Abschließen (Gewinnen) einer Karte erhältst du je nach Spielmodus einen einmaligen Bonus auf dein Guthaben.
 Münzen können auf dem Schwarzmarkt mit dem Befehl /shop ausgegeben werden.
 Außerdem kannst du Münzen durch Spielautomaten gewinnen oder verlieren mit /slot <Einsatz>;
 
@@ -164,11 +165,21 @@ command.stats.blocks-broken=Zerstörte Blöcke: {0};
 
 command.stats.blocks-built=Gebaute Blöcke: {0};
 
-command.stats.description=Deine Spielstatistiken auf dem Server anzeigen;
+command.stats.description=Deine Spielstatistiken oder die eines anderen Spielers anhand seiner id anzeigen;
 
 command.stats.header=[stat]Statistiken:;
 
 command.stats.playtime=Spielzeit: {0};
+
+command.top.description=Die Top-Spieler nach Guthaben anzeigen;
+
+command.top.select-title=Top-Typ auswählen;
+
+command.top.type.balance=Guthaben;
+
+command.top.header=[stat]Top-Spieler nach Guthaben:;
+
+command.top.entry=[accent]#{0}[] {1} [gray](id {2})[] - [green]${3};
 
 command.stats.waves-survived=Überstandene Wellen: {0};
 

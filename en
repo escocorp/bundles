@@ -45,6 +45,7 @@ command.economy.description=View the economy guide;
 command.economy.guide=Guide on how to become rich.
 For every 50 blocks, you receive 1 to 3 coins to your balance, depending on the game mode.
 For each wave you complete, you receive 3 to 5 coins to your balance, depending on the mode.
+For completing (winning) a map, you receive a one-time bonus to your balance, depending on the mode.
 Coins from your balance can be spent on items on the black market using the /shop command.
 Coins can also be earned and spent by playing slots using the /slot <bet> command.;
 
@@ -164,11 +165,21 @@ command.stats.blocks-broken=Blocks broken: {0};
 
 command.stats.blocks-built=Blocks built: {0};
 
-command.stats.description=View your game statistics on the server;
+command.stats.description=View your game statistics, or another player's by their id;
 
 command.stats.header=[stat]Stats:;
 
 command.stats.playtime=Playtime: {0};
+
+command.top.description=View the top players by balance;
+
+command.top.select-title=Select top type;
+
+command.top.type.balance=Balance;
+
+command.top.header=[stat]Top players by balance:;
+
+command.top.entry=[accent]#{0}[] {1} [gray](id {2})[] - [green]${3};
 
 command.stats.waves-survived=Waves survived: {0};
 

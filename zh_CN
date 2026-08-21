@@ -45,6 +45,7 @@ command.economy.description=查看经济系统指南;
 command.economy.guide=如何变得富有指南。
 每建造50个方块，你会根据游戏模式获得1到3金币。
 每通过一波，你会根据模式获得3到5金币。
+通关（获胜）地图后，你会根据模式获得一次性余额奖励。
 你可以通过 /shop 命令在黑市花费金币购买物品。
 你也可以通过 /slot <赌注> 命令玩老虎机来赚取或花费金币。;
 
@@ -164,11 +165,21 @@ command.stats.blocks-broken=已破坏方块：{0};
 
 command.stats.blocks-built=已建造方块：{0};
 
-command.stats.description=查看你在服务器上的游戏统计;
+command.stats.description=查看你自己或按 id 查看其他玩家的游戏统计;
 
 command.stats.header=[stat]统计：;
 
 command.stats.playtime=游戏时长：{0};
+
+command.top.description=查看余额排行榜;
+
+command.top.select-title=选择排行榜类型;
+
+command.top.type.balance=余额;
+
+command.top.header=[stat]余额排行榜：;
+
+command.top.entry=[accent]#{0}[] {1} [gray](id {2})[] - [green]${3};
 
 command.stats.waves-survived=已存活波次：{0};
 
