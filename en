@@ -9,8 +9,7 @@ announce.discord=[stat]Join our [blue]Discord!
 announce.map-change=[stat]Time to change the map! Save your buildings.;
 
 announce.reports=[stat]If you notice a violation, you can report it in our [blue]Discord
-[lightgray]{0}
-Or by contact@larzed.icu;
+[lightgray]{0};
 
 command.a.description=Send a message only to administrators.;
 
@@ -366,8 +365,7 @@ kick.banned=[scarlet]You are banned![white]
 Ban ID: {3}
 Reason: {0}
 Unban in: {1}
-Appeal in our Discord server {2}
-Or at contact@larzed.icu;
+Appeal in our Discord server {2};
 
 kick.bot-check=[scarlet]Please reconnect.;
 

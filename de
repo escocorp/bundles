@@ -9,8 +9,7 @@ announce.discord=[stat]Tritt unserem [blue]Discord bei!
 announce.map-change=[stat]Zeit, die Karte zu wechseln! Speichere deine Gebäude.;
 
 announce.reports=[stat]Falls du einen Regelverstoß bemerkst, kannst du ihn in unserem [blue]Discord melden
-[lightgray]{0}
-oder per E-Mail an contact@larzed.icu;
+[lightgray]{0};
 
 command.a.description=Nachricht nur an Administratoren senden.;
 
@@ -367,8 +366,7 @@ Ban-ID: {3}
 Grund: {0}
 Entbannung in: {1}
 WENN DU MIT DEM BAN NICHT EINVERSTANDEN BIST, KANNST DU EINEN EINSPRUCH EINLEGEN!!
-Dies ist auf unserem Discord-Server möglich: {2}
-Oder per E-Mail an contact@larzed.icu;
+Dies ist auf unserem Discord-Server möglich: {2};
 
 kick.bot-check=[scarlet]Bitte verbinde dich erneut.;
 

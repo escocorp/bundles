@@ -9,8 +9,7 @@ announce.discord=[stat]Entre no nosso [blue]Discord!
 announce.map-change=[stat]Hora de mudar o mapa! Salve suas construções.;
 
 announce.reports=[stat]Se você notar alguma violação, pode denunciar no nosso [blue]Discord
-[lightgray]{0}
-ou pelo e-mail contact@larzed.icu;
+[lightgray]{0};
 
 command.a.description=Enviar mensagem apenas para administradores.;
 
@@ -367,8 +366,7 @@ Ban ID: {3}
 Motivo: {0}
 Desbanimento em: {1}
 SE VOCÊ NÃO CONCORDA COM O BAN, TENTE RECORRER!!
-Você pode recorrer no nosso Discord {2}
-Ou pelo endereço contact@larzed.icu;
+Você pode recorrer no nosso Discord {2};
 
 kick.bot-check=[scarlet]Por favor reconecte.;
 

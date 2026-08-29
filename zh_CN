@@ -9,8 +9,7 @@ announce.discord=[stat]欢迎加入我们的 [blue]Discord！
 announce.map-change=[stat]是时候更换地图了！请保存你的建筑。;
 
 announce.reports=[stat]如果你发现违规行为，可以在我们的 [blue]Discord
-[lightgray]{0}
-或发送邮件至 contact@larzed.icu 举报;
+[lightgray]{0};
 
 command.a.description=仅向管理员发送消息。;
 
@@ -367,8 +366,7 @@ Ban ID: {3}
 原因：{0}
 解封时间：{1}
 如果你不同意该封禁，请尝试申诉！！
-你可以在我们的 Discord 服务器申诉：{2}
-或发送邮件至 contact@larzed.icu;
+你可以在我们的 Discord 服务器申诉：{2};
 
 kick.bot-check=[scarlet]请重新连接。;
 
